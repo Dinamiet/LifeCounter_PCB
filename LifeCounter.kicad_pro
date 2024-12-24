@@ -578,6 +578,18 @@
     [
       "16b3e55a-9d75-49bf-a6fe-25414eb3d7da",
       "Root"
+    ],
+    [
+      "6b761b5e-3125-4b22-9fe1-2e6b42db1157",
+      "user_interactions"
+    ],
+    [
+      "8f87360a-db94-4899-a1b3-392efb8a6c91",
+      "power"
+    ],
+    [
+      "554007b8-fabc-4c37-b9da-82228d4992cc",
+      "controller"
     ]
   ],
   "text_variables": {}
