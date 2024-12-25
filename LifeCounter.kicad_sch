@@ -64,7 +64,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6b761b5e-3125-4b22-9fe1-2e6b42db1157")
-		(property "Sheetname" "user_interactions"
+		(property "Sheetname" "io"
 			(at 137.16 75.4884 0)
 			(effects
 				(font
@@ -73,7 +73,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "user_interactions.kicad_sch"
+		(property "Sheetfile" "io.kicad_sch"
 			(at 137.16 98.3746 0)
 			(effects
 				(font
