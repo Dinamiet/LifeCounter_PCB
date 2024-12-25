@@ -3044,7 +3044,7 @@
 		(uuid "ec9fc144-ecd4-44b6-bf66-c0367dfb9ac1")
 	)
 	(bus_entry
-		(at 125.73 152.4)
+		(at 127 153.67)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3053,7 +3053,7 @@
 		(uuid "2ffc466a-bdd8-4789-a739-6b78e79c6433")
 	)
 	(bus_entry
-		(at 125.73 154.94)
+		(at 127 156.21)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3062,7 +3062,7 @@
 		(uuid "cd37d6fb-5acf-4a3c-b9c5-45dfc43f6c0e")
 	)
 	(bus_entry
-		(at 125.73 157.48)
+		(at 127 158.75)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3140,6 +3140,16 @@
 		)
 		(uuid "1514c98b-7359-4b4f-b4ca-759712a6bbc7")
 	)
+	(bus
+		(pts
+			(xy 127 153.67) (xy 127 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d66c2c-e32d-4644-acdb-5b935bfa01d5")
+	)
 	(wire
 		(pts
 			(xy 199.39 73.66) (xy 199.39 77.47)
@@ -3169,16 +3179,6 @@
 			(type default)
 		)
 		(uuid "1c406e7d-6928-41a0-b98c-0ca3af9892cf")
-	)
-	(bus
-		(pts
-			(xy 125.73 147.32) (xy 130.81 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9288ce-182b-43da-b635-ffa1af24fb97")
 	)
 	(wire
 		(pts
@@ -3212,7 +3212,7 @@
 	)
 	(bus
 		(pts
-			(xy 125.73 152.4) (xy 125.73 147.32)
+			(xy 127 153.67) (xy 127 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3232,7 +3232,7 @@
 	)
 	(bus
 		(pts
-			(xy 125.73 157.48) (xy 125.73 154.94)
+			(xy 127 158.75) (xy 127 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3342,7 +3342,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 154.94) (xy 129.54 154.94)
+			(xy 129.54 156.21) (xy 130.81 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3570,6 +3570,16 @@
 		)
 		(uuid "801e1dd2-e1b9-4e79-af08-dec9892129ae")
 	)
+	(bus
+		(pts
+			(xy 127 148.59) (xy 132.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c59084-3009-4d05-87b0-5b0377319040")
+	)
 	(wire
 		(pts
 			(xy 152.4 66.04) (xy 152.4 68.58)
@@ -3589,16 +3599,6 @@
 			(type default)
 		)
 		(uuid "843dacb3-3bb9-4fcc-b375-39840dd61af7")
-	)
-	(bus
-		(pts
-			(xy 125.73 154.94) (xy 125.73 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa35792-0ba0-46c1-9846-e6d9a40092aa")
 	)
 	(wire
 		(pts
@@ -3682,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 157.48) (xy 128.27 157.48)
+			(xy 130.81 158.75) (xy 129.54 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3890,6 +3890,16 @@
 		)
 		(uuid "dc22507c-3268-4ff6-86c6-912c0ef02a23")
 	)
+	(bus
+		(pts
+			(xy 127 186.69) (xy 127 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04d6914-3687-4265-bf12-10558d53517f")
+	)
 	(wire
 		(pts
 			(xy 237.49 129.54) (xy 237.49 124.46)
@@ -3982,7 +3992,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 160.02) (xy 128.27 160.02)
+			(xy 130.81 161.29) (xy 129.54 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4024,7 +4034,7 @@
 		(uuid "2577057c-a4ca-4c42-b123-ca058efe7bb2")
 	)
 	(label "FuelGage_LOW"
-		(at 129.54 154.94 0)
+		(at 130.81 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4046,7 +4056,7 @@
 		(uuid "6381e6a4-2cc1-4697-b9d4-e31ef71df02f")
 	)
 	(label "{FuelGage_LOW FuelGage_SCL FuelGage_SDA}"
-		(at 125.73 147.32 0)
+		(at 127 186.69 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4068,7 +4078,7 @@
 		(uuid "7e11d036-d125-4a5f-96b4-e1c87a3f2952")
 	)
 	(label "FuelGage_SCL"
-		(at 129.54 157.48 0)
+		(at 130.81 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4100,19 +4110,8 @@
 		)
 		(uuid "a2dbc487-a10a-413f-b217-4e0427f8dc22")
 	)
-	(label "POWER_ON"
-		(at 203.2 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a93da4f8-9d03-4afe-a74b-913ec5887021")
-	)
 	(label "FuelGage_SDA"
-		(at 129.54 160.02 0)
+		(at 130.81 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4132,6 +4131,30 @@
 			(justify left bottom)
 		)
 		(uuid "fdca131a-4e0e-4694-85d9-8fa7f3f1dd19")
+	)
+	(hierarchical_label "FuelGage"
+		(shape input)
+		(at 132.08 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70c694fb-659a-4863-a566-94fc7f0a533a")
+	)
+	(hierarchical_label "POWER_ON"
+		(shape input)
+		(at 203.2 120.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95489856-f063-4b61-8c14-3dc63f242e51")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")

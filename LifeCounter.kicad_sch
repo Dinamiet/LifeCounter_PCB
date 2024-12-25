@@ -14,9 +14,79 @@
 	(bus_alias "StatusSignals"
 		(members "Data" "CLK" "~OE" "Latch")
 	)
+	(bus
+		(pts
+			(xy 143.51 88.9) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f44ab1-ced8-4acd-bbb5-3d02f399b33d")
+	)
+	(bus
+		(pts
+			(xy 143.51 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79eef989-3d65-43c3-90e7-fd4b31d141aa")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 111.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81672da8-456c-4450-98ac-3cde355b8abc")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fefeeb1-97b4-4471-bf24-9f9d27594e7b")
+	)
+	(bus
+		(pts
+			(xy 143.51 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984300bf-d12d-43de-b0ec-7e3eb5f01584")
+	)
+	(bus
+		(pts
+			(xy 105.41 81.28) (xy 111.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af08e981-733e-48d1-a054-04a3a2deb775")
+	)
+	(bus
+		(pts
+			(xy 143.51 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca43a856-281b-4e1b-8ff1-0a235ec417d1")
+	)
 	(sheet
-		(at 78.74 121.92)
-		(size 31.75 16.51)
+		(at 111.76 73.66)
+		(size 31.75 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -27,7 +97,7 @@
 		)
 		(uuid "554007b8-fabc-4c37-b9da-82228d4992cc")
 		(property "Sheetname" "controller"
-			(at 78.74 121.2084 0)
+			(at 111.76 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,13 +106,83 @@
 			)
 		)
 		(property "Sheetfile" "controller.kicad_sch"
-			(at 78.74 139.0146 0)
+			(at 111.76 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "Buzzer" input
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7ccc345-a911-43b6-b8d2-a7a85d08e92d")
+		)
+		(pin "POWER_ON" input
+			(at 111.76 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c68cb02d-7c46-4d7a-99f9-88fc2a2a9451")
+		)
+		(pin "Encoder1" input
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b82aa9a5-bb61-4884-a03e-b8985fb6281a")
+		)
+		(pin "Encoder2" input
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "41f580e5-8729-448c-8c84-74dad74922b4")
+		)
+		(pin "Status" input
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2df6d642-eada-4695-9d67-b664af798686")
+		)
+		(pin "Display" input
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b411a1d5-4dc8-4f76-9e9f-4f35278dd195")
+		)
+		(pin "FuelGage" input
+			(at 111.76 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec084978-b0d9-4bec-ad1f-25476baf6f20")
 		)
 		(instances
 			(project "LifeCounter"
@@ -53,7 +193,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 76.2)
+		(at 154.94 80.01)
 		(size 31.75 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -65,7 +205,7 @@
 		)
 		(uuid "6b761b5e-3125-4b22-9fe1-2e6b42db1157")
 		(property "Sheetname" "io"
-			(at 137.16 75.4884 0)
+			(at 154.94 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,13 +214,63 @@
 			)
 		)
 		(property "Sheetfile" "io.kicad_sch"
-			(at 137.16 98.3746 0)
+			(at 154.94 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "Display" input
+			(at 154.94 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "01bcd281-343d-47c3-8157-f75d00bd5bfd")
+		)
+		(pin "Buzzer" input
+			(at 154.94 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39347b00-39b7-4712-84f9-eb350a09a253")
+		)
+		(pin "Encoder2" input
+			(at 154.94 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b59270dc-8a44-47b2-8ba3-1cea1f4363e8")
+		)
+		(pin "Encoder1" input
+			(at 154.94 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6af2fc16-f23d-4da5-9b84-cc0471e667e5")
+		)
+		(pin "Status" input
+			(at 154.94 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0626adcc-89df-45a6-bc01-30c6b4986468")
 		)
 		(instances
 			(project "LifeCounter"
@@ -91,7 +281,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 66.04)
+		(at 78.74 72.39)
 		(size 26.67 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -103,7 +293,7 @@
 		)
 		(uuid "8f87360a-db94-4899-a1b3-392efb8a6c91")
 		(property "Sheetname" "power"
-			(at 76.2 65.3284 0)
+			(at 78.74 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,13 +302,33 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 76.2 89.4846 0)
+			(at 78.74 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "POWER_ON" input
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37d97a10-95c3-46f1-91b5-5aa509c88e19")
+		)
+		(pin "FuelGage" input
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84385e37-f2a7-4ed9-9a5c-bbfa1dbf43a2")
 		)
 		(instances
 			(project "LifeCounter"
