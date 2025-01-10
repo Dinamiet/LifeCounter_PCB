@@ -4954,7 +4954,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "UART"
 			(at 246.38 77.4699 0)
 			(effects
 				(font
@@ -5027,7 +5027,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
+		(property "Value" "SWD"
 			(at 187.96 38.0999 0)
 			(effects
 				(font
@@ -5792,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Heartbeat"
 			(at 210.82 91.44 0)
 			(effects
 				(font

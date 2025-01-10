@@ -4602,7 +4602,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "PWR"
 			(at 256.54 131.1274 90)
 			(effects
 				(font
@@ -5493,7 +5493,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Charging"
 			(at 203.2 72.7074 90)
 			(effects
 				(font
@@ -7109,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+		(property "Value" "USBC"
 			(at 49.53 43.18 0)
 			(effects
 				(font
