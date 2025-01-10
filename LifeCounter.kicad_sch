@@ -240,6 +240,44 @@
 		)
 	)
 	(sheet
+		(at 195.58 53.34)
+		(size 20.32 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a359fce7-335c-4dc7-9a29-9985e30edce2")
+		(property "Sheetname" "Mounting"
+			(at 195.58 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mounting.kicad_sch"
+			(at 195.58 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 80.01 97.79)
 		(size 19.05 11.43)
 		(fields_autoplaced yes)

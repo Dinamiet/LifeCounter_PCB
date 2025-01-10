@@ -610,6 +610,10 @@
     [
       "ea853267-6be5-4470-9fb8-da1c0cfa6c51",
       "Buzzer"
+    ],
+    [
+      "a359fce7-335c-4dc7-9a29-9985e30edce2",
+      "Mounting"
     ]
   ],
   "text_variables": {}
