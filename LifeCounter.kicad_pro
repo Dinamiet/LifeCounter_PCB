@@ -580,16 +580,36 @@
       "Root"
     ],
     [
-      "6b761b5e-3125-4b22-9fe1-2e6b42db1157",
-      "io"
-    ],
-    [
       "8f87360a-db94-4899-a1b3-392efb8a6c91",
-      "power"
+      "Power"
     ],
     [
       "554007b8-fabc-4c37-b9da-82228d4992cc",
-      "controller"
+      "Controller"
+    ],
+    [
+      "e24d82de-f0b3-40eb-9854-28ed19ab91cc",
+      "Encoder1"
+    ],
+    [
+      "8ab23184-7a75-4d74-a7c3-8fc56a0d6372",
+      "Encoder2"
+    ],
+    [
+      "8c2171b0-d87d-41f8-af80-94d86e99ac21",
+      "Status1"
+    ],
+    [
+      "2d968151-724a-4d29-815f-dbf368373ff9",
+      "Status2"
+    ],
+    [
+      "672d503e-18e4-4d43-9df6-e02286c9b23c",
+      "Display"
+    ],
+    [
+      "ea853267-6be5-4470-9fb8-da1c0cfa6c51",
+      "Buzzer"
     ]
   ],
   "text_variables": {}
