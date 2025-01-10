@@ -2784,6 +2784,12 @@
 		(uuid "d8459d0b-3e9f-497d-b780-1318972c718b")
 	)
 	(junction
+		(at 80.01 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db29ebec-52f5-4430-a5cd-c4201ba61064")
+	)
+	(junction
 		(at 81.28 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2812,6 +2818,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b32395-a799-45cb-930b-b9a544fb1014")
+	)
+	(junction
+		(at 83.82 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b6c987-1f85-4bbd-9742-5bfc935bce08")
 	)
 	(no_connect
 		(at 41.91 80.01)
@@ -2937,6 +2949,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 168.91) (xy 71.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2593b4f9-b070-442a-8976-1183bd600acd")
+	)
+	(wire
+		(pts
 			(xy 163.83 87.63) (xy 163.83 78.74)
 		)
 		(stroke
@@ -2947,6 +2969,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 161.29) (xy 83.82 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b98ad8-7b12-4761-9c31-833b7579d390")
+	)
+	(wire
+		(pts
 			(xy 189.23 148.59) (xy 194.31 148.59)
 		)
 		(stroke
@@ -2954,6 +2986,16 @@
 			(type default)
 		)
 		(uuid "27ca0880-70b2-46a9-9d5a-51d892e923b8")
+	)
+	(wire
+		(pts
+			(xy 71.12 171.45) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c2a57b-c663-49c5-a3a1-783a49956eeb")
 	)
 	(wire
 		(pts
@@ -3017,7 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 168.91) (xy 80.01 177.8)
+			(xy 80.01 168.91) (xy 80.01 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3034,6 +3076,16 @@
 			(type default)
 		)
 		(uuid "518564d6-594b-4d42-88ac-caa28ea6fad5")
+	)
+	(wire
+		(pts
+			(xy 80.01 171.45) (xy 80.01 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52526de0-752d-42c5-8775-544d611c321c")
 	)
 	(wire
 		(pts
@@ -5071,6 +5123,76 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8f87360a-db94-4899-a1b3-392efb8a6c91"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70014485-1e54-4540-b6d5-bf3525eeb618")
+		(property "Reference" "C16"
+			(at 74.93 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 74.93 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.0852 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a0099e0-2bdb-4d57-a7a3-a4e0f6c6b93d")
+		)
+		(pin "2"
+			(uuid "b6d14b39-6b98-4991-b8b9-1755ee45a9fb")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8f87360a-db94-4899-a1b3-392efb8a6c91"
+					(reference "C16")
 					(unit 1)
 				)
 			)
