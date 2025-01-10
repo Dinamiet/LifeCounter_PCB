@@ -824,7 +824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -895,7 +895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.86 117.348 90)
 			(effects
 				(font
@@ -966,7 +966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.86 102.108 90)
 			(effects
 				(font
@@ -1037,7 +1037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.86 94.488 90)
 			(effects
 				(font
@@ -1108,7 +1108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.86 86.868 90)
 			(effects
 				(font
@@ -1179,7 +1179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.86 109.728 90)
 			(effects
 				(font
@@ -1235,7 +1235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff56715-4bc1-4bdf-80a2-4f6a62efd05f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0101"
 			(at 154.94 125.73 0)
 			(effects
 				(font
@@ -1285,6 +1285,10 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/2d968151-724a-4d29-815f-dbf368373ff9"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8c2171b0-d87d-41f8-af80-94d86e99ac21"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -1316,7 +1320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 140.97 100.33 0)
 			(effects
 				(font
@@ -1387,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 140.97 115.57 0)
 			(effects
 				(font
@@ -1458,7 +1462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 140.97 107.95 0)
 			(effects
 				(font
@@ -1529,7 +1533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 140.97 85.09 0)
 			(effects
 				(font
