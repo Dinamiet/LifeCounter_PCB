@@ -3510,7 +3510,7 @@
 		)
 		(uuid "ff5c1cbc-8996-4ea7-8a29-cbda36705bf7")
 	)
-	(hierarchical_label "Display"
+	(hierarchical_label "SPI"
 		(shape input)
 		(at 68.58 105.41 180)
 		(fields_autoplaced yes)
