@@ -3829,6 +3829,7 @@
 	)
 	(label "SCL"
 		(at 66.04 146.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3894,6 +3895,7 @@
 	)
 	(label "SDA"
 		(at 66.04 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4115,7 +4117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.4mm"
+		(property "Footprint" "MAX17043:21-0174B_MXM"
 			(at 90.17 140.97 0)
 			(effects
 				(font

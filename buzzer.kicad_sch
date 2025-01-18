@@ -691,6 +691,28 @@
 			)
 		)
 	)
+	(junction
+		(at 144.78 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1813f44-5e17-48c2-a371-9e7fb71e4098")
+	)
+	(junction
+		(at 144.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e829f7bd-a85f-4782-ad95-01084a83eb19")
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2522de21-03b0-448c-8894-7346168dcb71")
+	)
 	(wire
 		(pts
 			(xy 135.89 101.6) (xy 137.16 101.6)
@@ -703,13 +725,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 90.17) (xy 144.78 88.9)
+			(xy 144.78 88.9) (xy 144.78 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49eecd9b-fb72-4d56-a4c5-febea022360b")
+	)
+	(wire
+		(pts
+			(xy 142.24 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b56288f-492b-40aa-af68-7ae77084b405")
 	)
 	(wire
 		(pts
@@ -723,13 +755,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 146.05 95.25)
+			(xy 144.78 87.63) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a766717-c83a-4880-93df-909993747dab")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 148.59 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab921d7a-dd69-43f9-8647-f9dc37a18f6a")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32eef2b-27a9-4475-a2e3-71f49cfd5cb6")
 	)
 	(wire
 		(pts
@@ -753,7 +805,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 90.17) (xy 146.05 90.17)
+			(xy 144.78 88.9) (xy 148.59 88.9)
 		)
 		(stroke
 			(width 0)
@@ -833,6 +885,76 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4386f079-1557-4391-9242-6a85822d1678")
+		(property "Reference" "R33"
+			(at 144.78 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 144.78 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 144.018 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61d001c3-95c9-4239-aef6-7ab3e6e8df34")
+		)
+		(pin "1"
+			(uuid "8d5b75dc-bdc0-4a29-9b6e-a668ec9e6a53")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -984,7 +1106,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 148.59 92.71 0)
+		(at 151.13 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -993,7 +1115,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9042a77-53ba-4775-9652-4b6349e5a341")
 		(property "Reference" "BZ1"
-			(at 152.4 91.4399 0)
+			(at 154.94 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,8 +1123,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buzzer"
-			(at 152.4 93.9799 0)
+		(property "Value" "PKMCS0909E48H0-R1"
+			(at 154.94 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,8 +1132,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
-			(at 147.955 90.17 90)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKLCS1212E"
+			(at 150.495 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.955 90.17 90)
+			(at 150.495 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1151,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 148.59 92.71 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +1176,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 144.78 88.9 0)
+		(at 144.78 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1063,7 +1185,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfedd1ed-8ee4-4d59-965f-8951146005d8")
 		(property "Reference" "#PWR03"
-			(at 144.78 92.71 0)
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1194,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 144.78 83.82 0)
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 88.9 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 88.9 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 144.78 88.9 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
