@@ -1307,7 +1307,6 @@
 	)
 	(label "B"
 		(at 165.1 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1318,7 +1317,6 @@
 	)
 	(label "{Encoder}"
 		(at 124.46 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1329,7 +1327,6 @@
 	)
 	(label "BTN"
 		(at 165.1 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1340,7 +1337,6 @@
 	)
 	(label "A"
 		(at 165.1 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1352,7 +1348,6 @@
 	(hierarchical_label "Encoder"
 		(shape input)
 		(at 121.92 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -723,7 +723,6 @@
 	)
 	(label "A"
 		(at 137.16 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -734,7 +733,6 @@
 	)
 	(label "E"
 		(at 137.16 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -745,7 +743,6 @@
 	)
 	(label "D"
 		(at 137.16 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -756,7 +753,6 @@
 	)
 	(label "C"
 		(at 137.16 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -767,7 +763,6 @@
 	)
 	(label "{Status}"
 		(at 127 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -778,7 +773,6 @@
 	)
 	(label "B"
 		(at 137.16 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -790,7 +784,6 @@
 	(hierarchical_label "Status"
 		(shape input)
 		(at 125.73 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
