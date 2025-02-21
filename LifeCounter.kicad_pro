@@ -611,10 +611,6 @@
       "Power"
     ],
     [
-      "554007b8-fabc-4c37-b9da-82228d4992cc",
-      "Controller"
-    ],
-    [
       "e24d82de-f0b3-40eb-9854-28ed19ab91cc",
       "Encoder1"
     ],
@@ -624,15 +620,15 @@
     ],
     [
       "8c2171b0-d87d-41f8-af80-94d86e99ac21",
-      "Status1"
-    ],
-    [
-      "2d968151-724a-4d29-815f-dbf368373ff9",
-      "Status2"
+      "Status"
     ],
     [
       "672d503e-18e4-4d43-9df6-e02286c9b23c",
       "Display"
+    ],
+    [
+      "554007b8-fabc-4c37-b9da-82228d4992cc",
+      "Controller"
     ],
     [
       "ea853267-6be5-4470-9fb8-da1c0cfa6c51",

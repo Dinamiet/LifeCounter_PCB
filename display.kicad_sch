@@ -1780,15 +1780,6 @@
 		(uuid "09867664-9ba9-4975-92b7-a6612ed1f57b")
 	)
 	(bus_entry
-		(at 74.93 106.68)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ae827e-2b37-4f6c-8402-3c865dd74f3a")
-	)
-	(bus_entry
 		(at 113.03 109.22)
 		(size 2.54 -2.54)
 		(stroke
@@ -2346,16 +2337,6 @@
 		)
 		(uuid "4d25a8c6-929b-45d7-9e64-cb52b78fd53c")
 	)
-	(bus
-		(pts
-			(xy 74.93 105.41) (xy 74.93 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f883772-2d39-4f6f-b8b0-5a796ddac9e5")
-	)
 	(wire
 		(pts
 			(xy 133.35 86.36) (xy 140.97 86.36)
@@ -2375,6 +2356,16 @@
 			(type default)
 		)
 		(uuid "54ad0e46-bed4-4544-9927-a373272e928f")
+	)
+	(wire
+		(pts
+			(xy 69.85 96.52) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e59530-6258-460f-a0df-d93cdd379b3b")
 	)
 	(wire
 		(pts
@@ -2556,6 +2547,16 @@
 		)
 		(uuid "81f6c8d7-e4cf-4a67-9bef-c1c30f5fa74a")
 	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d4ef14-ea41-4d21-9b9d-5b7073bfc979")
+	)
 	(bus
 		(pts
 			(xy 115.57 69.85) (xy 130.81 69.85)
@@ -2668,7 +2669,7 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 106.68) (xy 74.93 109.22)
+			(xy 74.93 105.41) (xy 74.93 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2785,16 +2786,6 @@
 			(type default)
 		)
 		(uuid "b3a4c602-e44f-4025-bc74-bb98ff8bd0f7")
-	)
-	(wire
-		(pts
-			(xy 77.47 109.22) (xy 83.82 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b41557cb-0e5e-489b-b7b7-6a5997df74b0")
 	)
 	(wire
 		(pts
@@ -3035,6 +3026,16 @@
 			(type default)
 		)
 		(uuid "e2c64bd5-d500-45b7-9137-1a46deffbbfd")
+	)
+	(wire
+		(pts
+			(xy 83.82 109.22) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d30f85-6ae6-4001-b02f-dc5ae6e3c152")
 	)
 	(wire
 		(pts
@@ -3406,16 +3407,6 @@
 		)
 		(uuid "88a99ac1-27fd-4be0-ac44-7e6f067e0369")
 	)
-	(label "~{CS}"
-		(at 83.82 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8ca88497-947e-4cf3-bc82-59497bfc4a11")
-	)
 	(label "Digit2_3"
 		(at 104.14 109.22 0)
 		(effects
@@ -3635,6 +3626,17 @@
 			(justify left bottom)
 		)
 		(uuid "ff5c1cbc-8996-4ea7-8a29-cbda36705bf7")
+	)
+	(hierarchical_label "~{CS}"
+		(shape input)
+		(at 69.85 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53e31b3f-35dc-44f1-adbe-47676eae2d88")
 	)
 	(hierarchical_label "SPI"
 		(shape input)
