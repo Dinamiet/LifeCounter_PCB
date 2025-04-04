@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "16b3e55a-9d75-49bf-a6fe-25414eb3d7da")
 	(paper "A4")
 	(lib_symbols)
@@ -360,6 +360,10 @@
 	(sheet
 		(at 127 97.79)
 		(size 43.18 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -389,103 +393,103 @@
 		)
 		(pin "PWR_OK" input
 			(at 127 102.87 180)
+			(uuid "bd723149-8efe-4f36-8bda-69cc1cb9073f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd723149-8efe-4f36-8bda-69cc1cb9073f")
 		)
 		(pin "I2C1{I2C}" bidirectional
 			(at 127 110.49 180)
+			(uuid "033ca6dd-17ba-4336-8bd2-daa96ed64f26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "033ca6dd-17ba-4336-8bd2-daa96ed64f26")
 		)
 		(pin "PWR_Ctrl" output
 			(at 170.18 102.87 0)
+			(uuid "cc0e861c-2962-4c9c-825c-1c038f6263c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cc0e861c-2962-4c9c-825c-1c038f6263c3")
 		)
 		(pin "Encoder1{Encoder}" input
 			(at 127 121.92 180)
+			(uuid "6726694e-72e8-4afe-b9fc-f92153e696ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6726694e-72e8-4afe-b9fc-f92153e696ad")
 		)
 		(pin "Buzzer_PWM" output
 			(at 170.18 105.41 0)
+			(uuid "4e3c5f6c-68ce-4b9a-b552-eb7f61deb44c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4e3c5f6c-68ce-4b9a-b552-eb7f61deb44c")
 		)
 		(pin "Status_OE" output
 			(at 170.18 115.57 0)
+			(uuid "89a3dfb6-98cf-4dd0-9b40-3a38b0eef0b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "89a3dfb6-98cf-4dd0-9b40-3a38b0eef0b8")
 		)
 		(pin "Status_LE" output
 			(at 170.18 118.11 0)
+			(uuid "eeb2b9c1-62e2-486e-832b-8b0ba638e39f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eeb2b9c1-62e2-486e-832b-8b0ba638e39f")
 		)
 		(pin "~{Display_CS}" output
 			(at 170.18 121.92 0)
+			(uuid "5ed38d9b-b859-4e30-8cfe-3746369ad993")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5ed38d9b-b859-4e30-8cfe-3746369ad993")
 		)
 		(pin "SPI1{SPI}" output
 			(at 170.18 128.27 0)
+			(uuid "6752a21d-94ef-4874-bcea-11307feed924")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6752a21d-94ef-4874-bcea-11307feed924")
 		)
 		(pin "Encoder2{Encoder}" input
 			(at 127 124.46 180)
+			(uuid "b6684c38-aefa-4579-986a-07e5d48afcac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b6684c38-aefa-4579-986a-07e5d48afcac")
 		)
 		(instances
 			(project "LifeCounter"
@@ -498,6 +502,10 @@
 	(sheet
 		(at 187.96 129.54)
 		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -527,23 +535,23 @@
 		)
 		(pin "SPI" input
 			(at 187.96 137.16 180)
+			(uuid "afbe7bf5-ebab-41f8-a1be-dc23c98fc099")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "afbe7bf5-ebab-41f8-a1be-dc23c98fc099")
 		)
 		(pin "~{CS}" input
 			(at 187.96 133.35 180)
+			(uuid "5cee7c7a-2635-40d0-ab7e-4a0066e97249")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5cee7c7a-2635-40d0-ab7e-4a0066e97249")
 		)
 		(instances
 			(project "LifeCounter"
@@ -556,6 +564,10 @@
 	(sheet
 		(at 99.06 128.27)
 		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -585,13 +597,13 @@
 		)
 		(pin "Encoder" input
 			(at 111.76 129.54 0)
+			(uuid "adbeab69-03bc-4b2c-84dc-6c04463e7f8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "adbeab69-03bc-4b2c-84dc-6c04463e7f8b")
 		)
 		(instances
 			(project "LifeCounter"
@@ -604,6 +616,10 @@
 	(sheet
 		(at 187.96 114.3)
 		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -633,33 +649,33 @@
 		)
 		(pin "SPI" input
 			(at 187.96 121.92 180)
+			(uuid "06437c05-4bc5-42cc-b7f3-8dca4c75ab36")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "06437c05-4bc5-42cc-b7f3-8dca4c75ab36")
 		)
 		(pin "LE" input
 			(at 187.96 119.38 180)
+			(uuid "031a9973-feca-46f4-b905-ddfb299d4e30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "031a9973-feca-46f4-b905-ddfb299d4e30")
 		)
 		(pin "~{OE}" input
 			(at 187.96 116.84 180)
+			(uuid "275c47c0-d64f-41e1-a8c3-01d07b061264")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "275c47c0-d64f-41e1-a8c3-01d07b061264")
 		)
 		(instances
 			(project "LifeCounter"
@@ -672,6 +688,10 @@
 	(sheet
 		(at 134.62 74.93)
 		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -701,33 +721,33 @@
 		)
 		(pin "PWR_CTRL" input
 			(at 134.62 76.2 180)
+			(uuid "174bbe0b-d0bf-4e82-a665-8f262191f98a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "174bbe0b-d0bf-4e82-a665-8f262191f98a")
 		)
 		(pin "BAT_LOW" output
 			(at 160.02 76.2 0)
+			(uuid "fb371310-c9fa-4d74-85aa-38d3cb0d40b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fb371310-c9fa-4d74-85aa-38d3cb0d40b8")
 		)
 		(pin "I2C" bidirectional
 			(at 134.62 80.01 180)
+			(uuid "5a04a321-941d-4364-a16b-3a817cd5b730")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5a04a321-941d-4364-a16b-3a817cd5b730")
 		)
 		(instances
 			(project "LifeCounter"
@@ -740,6 +760,10 @@
 	(sheet
 		(at 185.42 81.28)
 		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -778,6 +802,10 @@
 	(sheet
 		(at 99.06 110.49)
 		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -806,13 +834,13 @@
 		)
 		(pin "Encoder" input
 			(at 111.76 111.76 0)
+			(uuid "b7f26b99-04cf-429d-a7ea-ceaf861f790e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b7f26b99-04cf-429d-a7ea-ceaf861f790e")
 		)
 		(instances
 			(project "LifeCounter"
@@ -825,6 +853,10 @@
 	(sheet
 		(at 187.96 104.14)
 		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -854,13 +886,13 @@
 		)
 		(pin "Buzz" input
 			(at 187.96 105.41 180)
+			(uuid "377788d1-5e2b-44c1-861a-c1095c29cf27")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "377788d1-5e2b-44c1-861a-c1095c29cf27")
 		)
 		(instances
 			(project "LifeCounter"
@@ -875,4 +907,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
