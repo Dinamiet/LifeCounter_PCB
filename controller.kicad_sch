@@ -3469,7 +3469,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k6"
 			(at 217.932 27.94 90)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 169.672 130.81 90)
 			(effects
 				(font
@@ -3962,7 +3962,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k6"
 			(at 106.172 39.37 90)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7u"
 			(at 118.11 66.0399 0)
 			(effects
 				(font
@@ -4317,7 +4317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 130.81 66.0399 0)
 			(effects
 				(font
@@ -4453,7 +4453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 67.31 83.8199 0)
 			(effects
 				(font
@@ -4719,7 +4719,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k6"
 			(at 98.552 39.37 90)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k6"
 			(at 210.312 27.94 90)
 			(effects
 				(font
