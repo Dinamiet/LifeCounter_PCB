@@ -1186,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 119.38 91.44)
+			(xy 119.38 88.9) (xy 119.38 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1537,7 +1537,7 @@
 		(dnp no)
 		(uuid "6c461894-19f6-4043-9c7d-37ae7a895b1c")
 		(property "Reference" "C1"
-			(at 128.27 113.0299 0)
+			(at 126.746 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,8 +1545,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 128.27 115.5699 0)
+		(property "Value" "100n"
+			(at 126.238 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1671,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 119.38 82.55 0)
+		(at 119.38 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1680,7 +1680,7 @@
 		(fields_autoplaced yes)
 		(uuid "7be3d043-a620-4183-8bda-55097e55929e")
 		(property "Reference" "#PWR05"
-			(at 119.38 86.36 0)
+			(at 119.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1689,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 119.38 77.47 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 82.55 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 82.55 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 119.38 82.55 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,10 +1747,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "865f7715-b783-438d-8d84-7bd5772cc715")
 		(property "Reference" "R13"
-			(at 125.73 126.9999 0)
+			(at 124.714 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,8 +1757,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 125.73 129.5399 0)
+		(property "Value" "10k"
+			(at 124.714 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,10 +1820,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8eed8f95-a15c-42c2-a5f6-473ee5531aaa")
 		(property "Reference" "C3"
-			(at 163.83 97.7899 0)
+			(at 160.528 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,8 +1830,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 163.83 100.3299 0)
+		(property "Value" "100n"
+			(at 160.782 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,10 +1962,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f4f4ffc-5fd6-430e-8620-d6afb884e01c")
 		(property "Reference" "R14"
-			(at 153.67 97.7899 0)
+			(at 152.654 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,8 +1972,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 153.67 100.3299 0)
+		(property "Value" "10k"
+			(at 152.908 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,10 +2105,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db772e74-da84-4602-a73a-0d31ad4d26f4")
 		(property "Reference" "C2"
-			(at 135.89 126.9999 0)
+			(at 134.62 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,8 +2115,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 135.89 129.5399 0)
+		(property "Value" "100n"
+			(at 134.62 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,10 +2178,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6423ded-0dbd-46bc-8ca1-dd856f5dc43e")
 		(property "Reference" "R12"
-			(at 118.11 113.0299 0)
+			(at 117.094 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,8 +2188,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 118.11 115.5699 0)
+		(property "Value" "10k"
+			(at 117.094 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
