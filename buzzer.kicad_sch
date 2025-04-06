@@ -999,7 +999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f6c44b6-35c8-4d8b-8b58-0fee1dc56321")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0802"
 			(at 144.78 118.11 0)
 			(effects
 				(font
@@ -1049,7 +1049,7 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "#PWR06")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -1065,7 +1065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4386f079-1557-4391-9242-6a85822d1678")
-		(property "Reference" "R33"
+		(property "Reference" "R802"
 			(at 144.78 90.1699 0)
 			(effects
 				(font
@@ -1119,7 +1119,7 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "R33")
+					(reference "R802")
 					(unit 1)
 				)
 			)
@@ -1135,7 +1135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55ccc27c-305e-445a-ae19-5a4015ac26ae")
-		(property "Reference" "R34"
+		(property "Reference" "R801"
 			(at 137.16 104.1399 0)
 			(effects
 				(font
@@ -1189,7 +1189,7 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "R34")
+					(reference "R801")
 					(unit 1)
 				)
 			)
@@ -1205,7 +1205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc892315-52f8-40e5-bc21-b84bab01224e")
-		(property "Reference" "Q3"
+		(property "Reference" "Q801"
 			(at 148.59 100.3299 0)
 			(effects
 				(font
@@ -1265,7 +1265,7 @@
 		(instances
 			(project ""
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "Q3")
+					(reference "Q801")
 					(unit 1)
 				)
 			)
@@ -1281,7 +1281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9042a77-53ba-4775-9652-4b6349e5a341")
-		(property "Reference" "BZ1"
+		(property "Reference" "BZ801"
 			(at 154.94 90.1699 0)
 			(effects
 				(font
@@ -1335,7 +1335,7 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "BZ1")
+					(reference "BZ801")
 					(unit 1)
 				)
 			)
@@ -1351,7 +1351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfedd1ed-8ee4-4d59-965f-8951146005d8")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0801"
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -1401,7 +1401,7 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "#PWR03")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)

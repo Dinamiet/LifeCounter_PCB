@@ -533,7 +533,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SPI" input
+		(pin "SPI{SPI}" input
 			(at 187.96 137.16 180)
 			(uuid "afbe7bf5-ebab-41f8-a1be-dc23c98fc099")
 			(effects
@@ -595,9 +595,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Encoder" input
+		(pin "{Encoder}" output
 			(at 111.76 129.54 0)
-			(uuid "adbeab69-03bc-4b2c-84dc-6c04463e7f8b")
+			(uuid "4c4a2c6a-c570-4153-818a-08bb0b5e2dcd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +647,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SPI" input
+		(pin "SPI{SPI}" input
 			(at 187.96 121.92 180)
 			(uuid "06437c05-4bc5-42cc-b7f3-8dca4c75ab36")
 			(effects
@@ -719,16 +719,6 @@
 				(justify left top)
 			)
 		)
-		(pin "PWR_CTRL" input
-			(at 134.62 76.2 180)
-			(uuid "174bbe0b-d0bf-4e82-a665-8f262191f98a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BAT_LOW" output
 			(at 160.02 76.2 0)
 			(uuid "fb371310-c9fa-4d74-85aa-38d3cb0d40b8")
@@ -739,9 +729,19 @@
 				(justify right)
 			)
 		)
-		(pin "I2C" bidirectional
+		(pin "I2C{I2C}" bidirectional
 			(at 134.62 80.01 180)
 			(uuid "5a04a321-941d-4364-a16b-3a817cd5b730")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_ON" input
+			(at 134.62 76.2 180)
+			(uuid "f2832e8f-5059-4b92-9761-b52c3e564acb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,9 +832,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Encoder" input
+		(pin "{Encoder}" output
 			(at 111.76 111.76 0)
-			(uuid "b7f26b99-04cf-429d-a7ea-ceaf861f790e")
+			(uuid "7e1be83d-2714-40bb-9a88-b8fc5a2f9aea")
 			(effects
 				(font
 					(size 1.27 1.27)
