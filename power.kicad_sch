@@ -4677,7 +4677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 140.716 65.786 0)
 			(effects
 				(font
@@ -5992,7 +5992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 74.93 167.6399 0)
 			(effects
 				(font
@@ -6553,7 +6553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 205.74 114.2999 0)
 			(effects
 				(font
