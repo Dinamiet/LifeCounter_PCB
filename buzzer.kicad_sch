@@ -1083,7 +1083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 144.018 91.44 90)
 			(effects
 				(font
@@ -1153,7 +1153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 136.398 105.41 90)
 			(effects
 				(font
@@ -1223,7 +1223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
 			(at 147.32 103.505 0)
 			(effects
 				(font
@@ -1299,7 +1299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKLCS1212E"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E"
 			(at 150.495 88.9 90)
 			(effects
 				(font
