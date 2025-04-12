@@ -5,6 +5,113 @@
 	(uuid "b0a88a0d-e091-453d-910a-674dfa13ecde")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1073,6 +1180,12 @@
 		(uuid "394aadfa-6a83-4dcf-b9e3-155d4d797b5c")
 	)
 	(junction
+		(at 110.49 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f2849db-2df6-4d4f-a0b6-8fa07dc58881")
+	)
+	(junction
 		(at 120.65 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1095,6 +1208,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94d8b1bc-9490-42a6-ac91-e1d60bfb0f0a")
+	)
+	(junction
+		(at 110.49 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac7cc315-e653-43ad-8cdc-d5447bac4ff7")
 	)
 	(junction
 		(at 120.65 74.93)
@@ -1324,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 96.52) (xy 120.65 96.52)
+			(xy 107.95 96.52) (xy 110.49 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 93.98) (xy 120.65 93.98)
+			(xy 107.95 93.98) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1494,6 +1613,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 96.52) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b2a3e6-3473-4031-aba5-d01d2a756351")
+	)
+	(wire
+		(pts
 			(xy 119.38 101.6) (xy 120.65 101.6)
 		)
 		(stroke
@@ -1501,6 +1630,16 @@
 			(type default)
 		)
 		(uuid "a89e3530-c057-4337-9e82-e6b1cc9da7fa")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.98) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dad960-4a66-4eac-a0cc-5fe3fbfc6c8c")
 	)
 	(wire
 		(pts
@@ -1664,7 +1803,7 @@
 	)
 	(hierarchical_label "LE"
 		(shape input)
-		(at 118.11 93.98 180)
+		(at 107.95 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1675,7 +1814,7 @@
 	)
 	(hierarchical_label "~{OE}"
 		(shape input)
-		(at 118.11 96.52 180)
+		(at 107.95 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1832,6 +1971,72 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8c2171b0-d87d-41f8-af80-94d86e99ac21"
 					(reference "#PWR0505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24d6624b-969d-428c-9b0a-ab011159280f")
+		(property "Reference" "TP12"
+			(at 112.014 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LE"
+			(at 112.268 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "776b79a8-219f-4456-8e98-8df5596973be")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8c2171b0-d87d-41f8-af80-94d86e99ac21"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -2661,6 +2866,73 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8c2171b0-d87d-41f8-af80-94d86e99ac21"
 					(reference "R501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "932def8a-577d-402f-875a-0fd9b027b837")
+		(property "Reference" "TP13"
+			(at 113.03 98.5519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~{OE}"
+			(at 113.03 101.0919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00eb9583-734e-4da6-a141-f5f6b647e761")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8c2171b0-d87d-41f8-af80-94d86e99ac21"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
