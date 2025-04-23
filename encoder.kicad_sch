@@ -1511,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 115.57 81.28)
+			(xy 109.22 81.28) (xy 119.38 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +1959,7 @@
 		)
 		(uuid "f8dcd601-54fd-4a90-bdb0-76f7623d169e")
 	)
-	(label "A"
+	(label "CLK"
 		(at 217.17 102.87 0)
 		(effects
 			(font
@@ -1979,7 +1979,7 @@
 		)
 		(uuid "329a7a06-11a7-4b0a-97c4-d917528852bf")
 	)
-	(label "A"
+	(label "A_RAW"
 		(at 87.63 81.28 0)
 		(effects
 			(font
@@ -1989,8 +1989,8 @@
 		)
 		(uuid "32c98401-b459-43ff-8fb9-48070fa153d3")
 	)
-	(label "BTN"
-		(at 115.57 81.28 180)
+	(label "BTN_RAW"
+		(at 119.38 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1999,7 +1999,7 @@
 		)
 		(uuid "3c72d8b6-c879-409a-9516-2e061eaacc02")
 	)
-	(label "B"
+	(label "B_RAW"
 		(at 187.96 134.62 0)
 		(effects
 			(font
@@ -2009,7 +2009,7 @@
 		)
 		(uuid "7779c5f5-5140-4166-936d-fc70056ce1e6")
 	)
-	(label "B"
+	(label "B_RAW"
 		(at 87.63 86.36 0)
 		(effects
 			(font
@@ -2019,7 +2019,7 @@
 		)
 		(uuid "8c544e42-c4fe-4694-9f98-5452dae0eaf5")
 	)
-	(label "BTN"
+	(label "BTN_RAW"
 		(at 187.96 76.2 0)
 		(effects
 			(font
@@ -2029,7 +2029,7 @@
 		)
 		(uuid "938086e1-8db0-46aa-a688-baf7c006d5f9")
 	)
-	(label "B"
+	(label "DAT"
 		(at 217.17 129.54 0)
 		(effects
 			(font
@@ -2039,7 +2039,7 @@
 		)
 		(uuid "b543ac3e-30dc-4f90-9f18-978911158301")
 	)
-	(label "A"
+	(label "A_RAW"
 		(at 187.96 107.95 0)
 		(effects
 			(font
@@ -2557,7 +2557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "A"
+		(property "Value" "CLK"
 			(at 224.79 100.8379 0)
 			(effects
 				(font
@@ -2720,7 +2720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B"
+		(property "Value" "DAT"
 			(at 224.79 127.5079 0)
 			(effects
 				(font
