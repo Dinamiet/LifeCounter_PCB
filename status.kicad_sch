@@ -558,7 +558,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_LED:STP08CP05T"
+		(symbol "Driver_LED:STP08CP05M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -571,7 +571,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STP08CP05T"
+			(property "Value" "STP08CP05M"
 				(at 1.27 19.304 0)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -598,7 +598,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "8-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, TSSOP-16"
+			(property "Description" "8-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, SOIC-16"
 				(at 0 0 0)
 				(effects
 					(font
@@ -616,7 +616,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*TSSOP*4.4*5**P0.65mm*"
+			(property "ki_fp_filters" "*SOIC*3.9*9.9*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -625,7 +625,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "STP08CP05T_0_1"
+			(symbol "STP08CP05M_0_1"
 				(rectangle
 					(start -7.62 17.78)
 					(end 7.62 -15.24)
@@ -638,7 +638,7 @@
 					)
 				)
 			)
-			(symbol "STP08CP05T_1_1"
+			(symbol "STP08CP05M_1_1"
 				(pin input line
 					(at -10.16 12.7 0)
 					(length 2.54)
@@ -2264,118 +2264,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_LED:STP08CP05T")
-		(at 130.81 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54084eda-8765-4e2e-b12b-379de492e84e")
-		(property "Reference" "U502"
-			(at 132.9533 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STP08CP05T"
-			(at 132.9533 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stp08cp05.pdf"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, TSSOP-16"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9787f2d1-a46f-44b0-aa22-de15b73c330a")
-		)
-		(pin "2"
-			(uuid "3b4aa463-571f-4580-ae45-ccc4c76ca072")
-		)
-		(pin "11"
-			(uuid "d9a274c9-6020-4066-8c95-b5e7edf64fea")
-		)
-		(pin "4"
-			(uuid "6b60ed14-a4f7-4612-87a8-7d35ec6d923a")
-		)
-		(pin "10"
-			(uuid "3832534e-c7ce-4cc1-ae79-407224f0cbcf")
-		)
-		(pin "8"
-			(uuid "45314ea6-3671-4540-b455-8f69ed4408c5")
-		)
-		(pin "13"
-			(uuid "ceb19ec2-d988-47f9-8fe5-948d76574741")
-		)
-		(pin "14"
-			(uuid "69e81ee8-c8a5-45f6-b215-0cae20c9aec7")
-		)
-		(pin "15"
-			(uuid "716bb6f2-1ac3-4118-a153-349981c9370d")
-		)
-		(pin "16"
-			(uuid "19560d17-4c2a-41f7-b684-217dbf531642")
-		)
-		(pin "1"
-			(uuid "024d44e4-c64d-4a3e-91f3-3bb35e7c3569")
-		)
-		(pin "9"
-			(uuid "9a38def7-e256-4e02-a4ea-c90ab6a5d2f6")
-		)
-		(pin "7"
-			(uuid "b466b181-cb5a-42ce-a3a1-9a3f6362c0be")
-		)
-		(pin "5"
-			(uuid "a828a973-d487-4919-afaf-2c28302ba985")
-		)
-		(pin "6"
-			(uuid "b243b09a-45f3-43fc-a578-fcdf46f7f308")
-		)
-		(pin "12"
-			(uuid "c0298965-43e4-440c-ae5d-af2944e91d60")
-		)
-		(instances
-			(project ""
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8c2171b0-d87d-41f8-af80-94d86e99ac21"
-					(reference "U502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 118.11 0)
 		(unit 1)
@@ -2933,6 +2821,118 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8c2171b0-d87d-41f8-af80-94d86e99ac21"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_LED:STP08CP05M")
+		(at 130.81 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cd4e80a-1bc6-480e-99da-2d9bb0ad4959")
+		(property "Reference" "U3"
+			(at 132.9533 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STP08CP05M"
+			(at 132.9533 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stp08cp05.pdf"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, SOIC-16"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d396f793-dbb4-4a36-bc46-41765ade4e8b")
+		)
+		(pin "9"
+			(uuid "8944ad61-f08a-4276-be54-7e928c6f0d3a")
+		)
+		(pin "2"
+			(uuid "a51ba21c-710a-4cf3-a8ab-9217244ab0d5")
+		)
+		(pin "3"
+			(uuid "890f4f57-df22-459f-9d94-8c6c1993d871")
+		)
+		(pin "1"
+			(uuid "95aba1d2-33c9-411e-9a8d-61c885d847c0")
+		)
+		(pin "6"
+			(uuid "f07c68f4-7c91-4db5-88bd-6adbfd162466")
+		)
+		(pin "14"
+			(uuid "2496bf27-9ea4-412f-99a7-da571c5c6a4a")
+		)
+		(pin "10"
+			(uuid "1ac3e2de-b16f-4384-b2de-31d2e25be840")
+		)
+		(pin "7"
+			(uuid "fd17d9bc-7285-42a9-a031-5d9dc6715dba")
+		)
+		(pin "16"
+			(uuid "a991bdef-bbc2-47cd-bf16-e72fb0063f6b")
+		)
+		(pin "15"
+			(uuid "29131bd3-d169-4104-b051-30613a7559f6")
+		)
+		(pin "8"
+			(uuid "f083ca08-d466-4701-9c06-ddf0f2fe2eda")
+		)
+		(pin "13"
+			(uuid "3980bf76-3be4-43dc-b3b3-798ccc33035a")
+		)
+		(pin "11"
+			(uuid "1ac0341a-89ea-470c-98f2-164d56583e1d")
+		)
+		(pin "5"
+			(uuid "f2dcb1bc-5c49-4821-bc6b-2cecd48f865a")
+		)
+		(pin "12"
+			(uuid "811d61ec-f6ec-4c40-921f-6f8c44690916")
+		)
+		(instances
+			(project ""
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8c2171b0-d87d-41f8-af80-94d86e99ac21"
+					(reference "U3")
 					(unit 1)
 				)
 			)
