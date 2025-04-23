@@ -2078,7 +2078,7 @@
 		(members "SWDIO" "SWCLK")
 	)
 	(bus_alias "Encoder"
-		(members "BTN" "A" "B")
+		(members "BTN" "CLK" "DAT")
 	)
 	(bus_alias "I2C"
 		(members "SDA" "SCL")
