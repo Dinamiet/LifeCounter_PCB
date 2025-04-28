@@ -3589,7 +3589,7 @@
 		)
 		(uuid "57521522-4548-44c5-8d6d-0d60706f58c0")
 	)
-	(label "Encoder1.B"
+	(label "Encoder1.DAT"
 		(at 161.29 81.28 0)
 		(effects
 			(font
@@ -3599,7 +3599,7 @@
 		)
 		(uuid "57b8cfb8-c95b-40d4-a0be-c8265e70a481")
 	)
-	(label "Encoder2.A"
+	(label "Encoder2.CLK"
 		(at 138.43 93.98 180)
 		(effects
 			(font
@@ -3629,7 +3629,7 @@
 		)
 		(uuid "7902cbf9-5adc-4445-b899-0f27e0e42bfc")
 	)
-	(label "Encoder2.B"
+	(label "Encoder2.DAT"
 		(at 138.43 96.52 180)
 		(effects
 			(font
@@ -3729,7 +3729,7 @@
 		)
 		(uuid "ddd4bdd3-9bf9-4926-9e66-bf2c007258a5")
 	)
-	(label "Encoder1.A"
+	(label "Encoder1.CLK"
 		(at 161.29 78.74 0)
 		(effects
 			(font
