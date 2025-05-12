@@ -11,12 +11,6 @@
 	(bus_alias "SPI"
 		(members "CLK" "Data")
 	)
-	(junction
-		(at 177.8 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edd221ad-7e18-4526-b308-f9d8ebe375c7")
-	)
 	(wire
 		(pts
 			(xy 160.02 76.2) (xy 166.37 76.2)
@@ -56,16 +50,6 @@
 			(type default)
 		)
 		(uuid "07bc79c9-bc69-40a5-95bf-f46f4d1b25bd")
-	)
-	(wire
-		(pts
-			(xy 173.99 133.35) (xy 187.96 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ddde42-0946-438e-a6c4-afdea8802b71")
 	)
 	(bus
 		(pts
@@ -129,16 +113,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 119.38) (xy 179.07 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d2e030-99d6-447c-8eb4-9c3fa8c44763")
-	)
-	(wire
-		(pts
 			(xy 166.37 93.98) (xy 124.46 93.98)
 		)
 		(stroke
@@ -159,36 +133,6 @@
 	)
 	(bus
 		(pts
-			(xy 187.96 121.92) (xy 177.8 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce0d0da-b8be-42d8-98ce-ec17e0a718ca")
-	)
-	(wire
-		(pts
-			(xy 179.07 119.38) (xy 179.07 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d275dba-dfe9-41cd-8a10-111ddedaa42c")
-	)
-	(wire
-		(pts
-			(xy 173.99 121.92) (xy 173.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "728731dd-5f0f-41d6-868f-c8b4577e8ec5")
-	)
-	(bus
-		(pts
 			(xy 121.92 110.49) (xy 127 110.49)
 		)
 		(stroke
@@ -196,26 +140,6 @@
 			(type default)
 		)
 		(uuid "8e358db0-25dc-451a-a70b-9d5bf6c7d766")
-	)
-	(wire
-		(pts
-			(xy 182.88 115.57) (xy 182.88 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8faa3ea0-0029-4386-ba7e-ea05b5f82fb0")
-	)
-	(bus
-		(pts
-			(xy 177.8 137.16) (xy 187.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d53d2d8-f794-4f0c-a51e-6aa5eb43665e")
 	)
 	(wire
 		(pts
@@ -229,26 +153,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 115.57) (xy 182.88 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72a55db-eaf8-40c3-a023-102705948335")
-	)
-	(bus
-		(pts
-			(xy 170.18 128.27) (xy 177.8 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76a9446-d9b2-481d-b40a-9867133d6b1e")
-	)
-	(wire
-		(pts
 			(xy 134.62 76.2) (xy 130.81 76.2)
 		)
 		(stroke
@@ -256,36 +160,6 @@
 			(type default)
 		)
 		(uuid "a7af22e5-3987-4630-9dfd-d60fccf8b7d0")
-	)
-	(wire
-		(pts
-			(xy 170.18 121.92) (xy 173.99 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1f0c18-6cb0-442b-935e-1cffdae75e50")
-	)
-	(wire
-		(pts
-			(xy 182.88 116.84) (xy 187.96 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be63212f-814e-4f92-86c5-caeaea2145dd")
-	)
-	(bus
-		(pts
-			(xy 177.8 121.92) (xy 177.8 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c438664b-0cbc-48a0-8732-870ac8cab31b")
 	)
 	(bus
 		(pts
@@ -326,26 +200,6 @@
 			(type default)
 		)
 		(uuid "e341f26b-9f76-4f85-8a5b-d794e74cf91c")
-	)
-	(wire
-		(pts
-			(xy 170.18 118.11) (xy 179.07 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f193a62d-6fd8-4a75-9621-de394b554154")
-	)
-	(bus
-		(pts
-			(xy 177.8 128.27) (xy 177.8 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f505e5c6-6995-430e-9982-846e9e502517")
 	)
 	(bus
 		(pts
@@ -500,68 +354,6 @@
 		)
 	)
 	(sheet
-		(at 187.96 129.54)
-		(size 12.7 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "672d503e-18e4-4d43-9df6-e02286c9b23c")
-		(property "Sheetname" "Display"
-			(at 187.96 128.8284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "display.kicad_sch"
-			(at 187.96 139.0146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SPI{SPI}" input
-			(at 187.96 137.16 180)
-			(uuid "afbe7bf5-ebab-41f8-a1be-dc23c98fc099")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{CS}" input
-			(at 187.96 133.35 180)
-			(uuid "5cee7c7a-2635-40d0-ab7e-4a0066e97249")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 99.06 128.27)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -609,78 +401,6 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 187.96 114.3)
-		(size 17.78 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8c2171b0-d87d-41f8-af80-94d86e99ac21")
-		(property "Sheetname" "Status"
-			(at 187.96 113.5884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "status.kicad_sch"
-			(at 187.96 125.0446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SPI{SPI}" input
-			(at 187.96 121.92 180)
-			(uuid "06437c05-4bc5-42cc-b7f3-8dca4c75ab36")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LE" input
-			(at 187.96 119.38 180)
-			(uuid "031a9973-feca-46f4-b905-ddfb299d4e30")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{OE}" input
-			(at 187.96 116.84 180)
-			(uuid "275c47c0-d64f-41e1-a8c3-01d07b061264")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da"
-					(page "6")
 				)
 			)
 		)
