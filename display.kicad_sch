@@ -6576,6 +6576,10 @@
 					(reference "U7")
 					(unit 1)
 				)
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/928ecbc9-811c-4ed6-9e11-f4921645bfe2"
+					(reference "U?")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10177,6 +10181,10 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8f7d72a3-fa2b-43c5-aa4a-33ac031a7d6c"
 					(reference "U9")
+					(unit 1)
+				)
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/928ecbc9-811c-4ed6-9e11-f4921645bfe2"
+					(reference "U?")
 					(unit 1)
 				)
 			)
