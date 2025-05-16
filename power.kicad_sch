@@ -3759,12 +3759,6 @@
 		(uuid "0030b69f-4356-4109-b54e-1b2d92006ef5")
 	)
 	(junction
-		(at 124.46 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "018d4fe0-4aae-4f98-aed6-f7972f6e83bb")
-	)
-	(junction
 		(at 157.48 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3861,6 +3855,12 @@
 		(uuid "4fd9634a-6f9c-44df-be06-9970e2030dfc")
 	)
 	(junction
+		(at 124.46 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5028d767-c05e-4121-9d9e-93f4d87c2391")
+	)
+	(junction
 		(at 68.58 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3919,6 +3919,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95543e83-ae17-4435-9511-79917b75335b")
+	)
+	(junction
+		(at 144.78 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d00c896-7bc4-4f58-bd15-6de2fb54f8db")
 	)
 	(junction
 		(at 77.47 57.15)
@@ -4134,7 +4140,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 154.94) (xy 76.2 154.94)
+			(xy 73.66 154.94) (xy 80.01 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4414,6 +4420,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3239cf4d-a85f-42f1-82e6-909553bdcae2")
+	)
+	(wire
+		(pts
 			(xy 133.35 91.44) (xy 146.05 91.44)
 		)
 		(stroke
@@ -4434,7 +4450,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 111.76) (xy 124.46 110.49)
+			(xy 124.46 101.6) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4814,6 +4830,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 101.6) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731254db-00a7-482f-831c-d60d7cf459c3")
+	)
+	(wire
+		(pts
 			(xy 88.9 41.91) (xy 50.8 41.91)
 		)
 		(stroke
@@ -4841,26 +4867,6 @@
 			(type default)
 		)
 		(uuid "783a3e42-c912-4f96-8e86-dd9fe7081588")
-	)
-	(wire
-		(pts
-			(xy 119.38 110.49) (xy 124.46 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "786162ba-485a-430d-a962-0c2c3b6dd941")
-	)
-	(wire
-		(pts
-			(xy 119.38 104.14) (xy 119.38 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "786c848c-75f2-423f-9033-a624c7f76a57")
 	)
 	(wire
 		(pts
@@ -4954,6 +4960,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 110.49) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89564eca-ad7b-4209-bf3d-4991c565419f")
+	)
+	(wire
+		(pts
 			(xy 88.9 45.72) (xy 90.17 45.72)
 		)
 		(stroke
@@ -4964,7 +4980,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 104.14) (xy 119.38 104.14)
+			(xy 113.03 101.6) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5131,6 +5147,16 @@
 			(type default)
 		)
 		(uuid "a2225e43-9f53-425d-9c75-b03f58cb29d1")
+	)
+	(wire
+		(pts
+			(xy 144.78 124.46) (xy 167.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c2d2a3-af6e-44c6-8026-5713f0661e96")
 	)
 	(wire
 		(pts
@@ -5504,17 +5530,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 109.22) (xy 124.46 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf277c65-861d-4df5-a75c-73d257dd9114")
-	)
-	(wire
-		(pts
-			(xy 114.3 124.46) (xy 167.64 124.46)
+			(xy 114.3 124.46) (xy 144.78 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5813,7 +5829,7 @@
 		(uuid "3473af42-942f-459a-b8ad-54c0f23d95ca")
 	)
 	(label "EN"
-		(at 76.2 154.94 0)
+		(at 80.01 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6118,6 +6134,72 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8f87360a-db94-4899-a1b3-392efb8a6c91"
 					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07fb19d3-c42d-4583-b447-d455a1fb6bd6")
+		(property "Reference" "TP12"
+			(at 76.2 150.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EN"
+			(at 76.2 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "084cf5f5-f7ce-4c3f-8cb3-13b27cf80322")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8f87360a-db94-4899-a1b3-392efb8a6c91"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -6493,7 +6575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MAX17043G+T"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max17043-max17044.pdf"
 			(at 226.06 121.92 0)
 			(effects
 				(font
@@ -6825,6 +6907,73 @@
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8f87360a-db94-4899-a1b3-392efb8a6c91"
 					(reference "R211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22b3299b-9c1f-4c75-a26a-107ee565f3c2")
+		(property "Reference" "TP5"
+			(at 147.32 119.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~{PG}"
+			(at 147.32 122.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "296ef477-12bd-4b93-afb6-5dedc77c2bfe")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8f87360a-db94-4899-a1b3-392efb8a6c91"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8418,7 +8567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TPS630701RNMR"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TPS63070"
 			(at 87.63 106.68 0)
 			(effects
 				(font
@@ -8659,7 +8808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "2.2k"
 			(at 127 116.8399 0)
 			(effects
 				(font
@@ -9562,7 +9711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "10k"
 			(at 127 97.7899 0)
 			(effects
 				(font
@@ -10672,7 +10821,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 105.41 0)
+		(at 124.46 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10681,7 +10830,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb9dccd6-4fd0-46a9-b303-1ae9a8441c4b")
 		(property "Reference" "R220"
-			(at 127 104.1399 0)
+			(at 127 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,8 +10838,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 127 106.6799 0)
+		(property "Value" "1k"
+			(at 127 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +10848,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 122.682 105.41 90)
+			(at 122.682 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +10857,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 105.41 0)
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +10866,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 105.41 0)
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

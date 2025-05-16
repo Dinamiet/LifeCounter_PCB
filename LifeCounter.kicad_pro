@@ -446,7 +446,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -622,8 +622,8 @@
       "Power"
     ],
     [
-      "8f7d72a3-fa2b-43c5-aa4a-33ac031a7d6c",
-      "Display2"
+      "554007b8-fabc-4c37-b9da-82228d4992cc",
+      "Controller"
     ],
     [
       "e24d82de-f0b3-40eb-9854-28ed19ab91cc",
@@ -638,8 +638,8 @@
       "Display1"
     ],
     [
-      "554007b8-fabc-4c37-b9da-82228d4992cc",
-      "Controller"
+      "8f7d72a3-fa2b-43c5-aa4a-33ac031a7d6c",
+      "Display2"
     ],
     [
       "ea853267-6be5-4470-9fb8-da1c0cfa6c51",
