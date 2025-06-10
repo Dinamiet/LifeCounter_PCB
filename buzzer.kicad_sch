@@ -1114,28 +1114,28 @@
 		)
 	)
 	(junction
-		(at 115.57 99.06)
+		(at 119.38 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05201d00-4481-4fd2-a6ba-484bd5b5c3e8")
+		(uuid "1fd2044a-1c9d-46cf-9ffb-35ef281d652b")
 	)
 	(junction
-		(at 124.46 82.55)
+		(at 119.38 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b304daa-3b2d-4650-a379-5ea87e61d9aa")
+		(uuid "45119ab6-b69f-4e9a-9505-d097cbf71526")
 	)
 	(junction
-		(at 124.46 92.71)
+		(at 110.49 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a2ef494-8af0-41aa-928a-6e3d3da20f10")
+		(uuid "6b010972-8514-4d27-bb39-248a3ed05c8a")
 	)
 	(junction
-		(at 124.46 109.22)
+		(at 119.38 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8bb2d036-dae8-4961-8f74-864e22d8b640")
+		(uuid "ae900e56-4092-4094-8fb5-1a176e2e709b")
 	)
 	(junction
 		(at 144.78 95.25)
@@ -1151,13 +1151,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.33) (xy 115.57 99.06)
+			(xy 119.38 87.63) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d78b719-7c38-402a-bddc-8b2c41deabfb")
+		(uuid "1d8ac28b-70c5-42ae-b5c1-e4e3e72655bc")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.36) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2119b014-870d-4b81-b111-802e6f47a922")
 	)
 	(wire
 		(pts
@@ -1171,33 +1181,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 124.46 83.82)
+			(xy 110.49 95.25) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "261057ae-912d-47a6-b6c9-4dc75967b6d8")
-	)
-	(wire
-		(pts
-			(xy 124.46 92.71) (xy 124.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31831aab-d106-4373-8c8e-ed1bd7ff6031")
-	)
-	(wire
-		(pts
-			(xy 135.89 82.55) (xy 144.78 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "432d3011-2561-4cb9-ad73-6510a83f987c")
+		(uuid "3d8269f0-5b5b-411f-af40-cf8fa381f13f")
 	)
 	(wire
 		(pts
@@ -1211,23 +1201,43 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 115.57 99.06)
+			(xy 110.49 104.14) (xy 110.49 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a4d83fe-0cff-4445-9834-648d3f8fe536")
+		(uuid "4a2c7df2-c2ef-4755-a265-a3a130be1f8f")
 	)
 	(wire
 		(pts
-			(xy 125.73 82.55) (xy 124.46 82.55)
+			(xy 119.38 99.06) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6531a790-f665-4465-9dfc-05c45f062531")
+		(uuid "4af89098-a958-4dda-b4d0-a389015e6c7b")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.98) (xy 111.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe6a47a-0205-4a64-a504-3f6a937c031e")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512b8bce-8bd1-48c4-aebd-016e2aedbe2d")
 	)
 	(wire
 		(pts
@@ -1241,43 +1251,73 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 124.46 109.22)
+			(xy 102.87 93.98) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8af70558-a3cb-4612-b403-dcf1bb863e72")
+		(uuid "702a2263-e80d-4b2f-be83-2e205fc32c6b")
 	)
 	(wire
 		(pts
-			(xy 124.46 91.44) (xy 124.46 92.71)
+			(xy 119.38 104.14) (xy 119.38 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91380a03-6bad-4ccb-801a-7b6c3fc52ba4")
+		(uuid "73c4cdcb-88d1-44c3-b3cf-2b0984f56464")
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 124.46 109.22)
+			(xy 120.65 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "981d4ced-b101-4159-8c02-251045087237")
+		(uuid "73f39366-d324-4de1-8dfe-48fee96d3fb5")
 	)
 	(wire
 		(pts
-			(xy 144.78 87.63) (xy 144.78 82.55)
+			(xy 110.49 104.14) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74416220-d3c9-42a3-9189-2abb297c5483")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b621766-3e49-4931-a09b-1ba9f5c09cd4")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a766717-c83a-4880-93df-909993747dab")
+	)
+	(wire
+		(pts
+			(xy 119.38 77.47) (xy 119.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88a26f7-6e42-49da-a0fd-67feed691f2f")
 	)
 	(wire
 		(pts
@@ -1291,43 +1331,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 99.06) (xy 116.84 99.06)
+			(xy 130.81 77.47) (xy 144.78 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd50cb9d-1205-4ee3-99dc-78e4a84cf873")
-	)
-	(wire
-		(pts
-			(xy 124.46 92.71) (xy 130.81 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c93d2a2b-b40d-4f0e-bbc5-06b94d122e14")
-	)
-	(wire
-		(pts
-			(xy 124.46 109.22) (xy 124.46 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c1e4e8-ac94-4adb-8e9f-fd7f4c4b4c1c")
-	)
-	(wire
-		(pts
-			(xy 124.46 71.12) (xy 124.46 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df0660c8-807f-41d4-b5a6-6f551abf16ff")
+		(uuid "b1e8a95d-3415-4c86-9ae0-59225823ee79")
 	)
 	(wire
 		(pts
@@ -1341,13 +1351,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 90.17) (xy 130.81 92.71)
+			(xy 119.38 87.63) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e88c3503-651d-48b2-9f0c-3dfd2655cdaf")
+		(uuid "e8c70ccc-f111-40ea-9cb3-c91e32853226")
 	)
 	(wire
 		(pts
@@ -1361,16 +1371,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 115.57 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33b0ed4-c3a9-4453-81d0-471e5015ecc4")
-	)
-	(wire
-		(pts
 			(xy 144.78 88.9) (xy 148.59 88.9)
 		)
 		(stroke
@@ -1381,83 +1381,14 @@
 	)
 	(hierarchical_label "Buzz"
 		(shape input)
-		(at 104.14 99.06 180)
+		(at 102.87 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "32bbd6c9-e073-414a-a310-4d1bb76e8893")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 124.46 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16ed910f-66eb-441a-908c-458e8c18fd9e")
-		(property "Reference" "R217"
-			(at 117.602 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 119.126 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 122.682 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e3b0be1-8df9-4d44-9294-b00eebfb01f0")
-		)
-		(pin "2"
-			(uuid "9b148b94-52bf-4fe8-a1ac-b848ba7ccdcd")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "R217")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "162c3209-d3dc-4f75-9a47-707484f5b0d7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1469,7 +1400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27bfefeb-0096-4429-81e6-e18bc48ba822")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0803"
 			(at 144.78 104.14 0)
 			(effects
 				(font
@@ -1519,7 +1450,7 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "#PWR0221")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -1527,34 +1458,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 91.44 180)
+		(at 142.24 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4386f079-1557-4391-9242-6a85822d1678")
-		(property "Reference" "R802"
-			(at 144.78 90.1699 0)
+		(uuid "4013698c-c11e-4815-9593-edc11c8eba69")
+		(property "Reference" "R803"
+			(at 135.382 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1k"
-			(at 144.78 92.7099 0)
+			(at 136.906 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 144.018 91.44 90)
+			(at 140.462 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,16 +1510,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "61d001c3-95c9-4239-aef6-7ab3e6e8df34")
-		)
 		(pin "1"
-			(uuid "8d5b75dc-bdc0-4a29-9b6e-a668ec9e6a53")
+			(uuid "d17d4053-294b-418a-a9ac-bcf01d0ce19a")
+		)
+		(pin "2"
+			(uuid "41588f19-c54e-474f-a7b8-9f40becac24f")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "R802")
+					(reference "R803")
 					(unit 1)
 				)
 			)
@@ -1597,16 +1527,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 110.49 0)
+		(at 119.38 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "671213a4-207a-4a14-aec5-c80c60db6db3")
-		(property "Reference" "#PWR0218"
-			(at 124.46 116.84 0)
+		(uuid "985060cc-260a-4519-b5bb-14866fc9d4a0")
+		(property "Reference" "#PWR0802"
+			(at 119.38 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,7 +1545,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 115.57 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 110.49 0)
+			(at 119.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 110.49 0)
+			(at 119.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 110.49 0)
+			(at 119.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,12 +1580,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba27f7e0-8e91-4bc8-9ea8-55b80e30bbae")
+			(uuid "0704fd39-4ea7-4bc9-95a9-328519d1fc41")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "#PWR0218")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -1663,16 +1593,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002K")
-		(at 121.92 99.06 0)
+		(at 116.84 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b448d0c6-a754-4891-9c74-a9893642c131")
-		(property "Reference" "Q2"
-			(at 128.27 97.7899 0)
+		(uuid "a72efb36-589c-476b-bbd2-637cb5c219f0")
+		(property "Reference" "Q801"
+			(at 123.19 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,8 +1610,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
-			(at 128.27 100.3299 0)
+		(property "Value" "DO2308S"
+			(at 123.19 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,8 +1619,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 127 100.965 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 121.92 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,8 +1630,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 127 102.87 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_DOINGTER-DO2308S_C47018572.pdf"
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,8 +1640,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 121.92 99.06 0)
+		(property "Description" "2.2A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C47018572"
+			(at 116.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,18 +1659,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e5b940f-ca2d-493e-97a3-2b24c2c84e71")
+			(uuid "e82f2158-5629-4bf8-9162-ee92d709f204")
 		)
 		(pin "3"
-			(uuid "563fd542-ca03-415a-b94a-51e9674ed63e")
+			(uuid "23888e0b-e34b-4f05-9a71-f65ee6e12281")
 		)
 		(pin "1"
-			(uuid "2db536b6-2480-4857-863a-0dc7310b3e13")
+			(uuid "3f343c18-78c7-4b99-8735-95b7db1578ba")
 		)
 		(instances
-			(project ""
+			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "Q2")
+					(reference "Q801")
 					(unit 1)
 				)
 			)
@@ -1739,15 +1678,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 104.14 0)
+		(at 119.38 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb898a36-480d-49a9-bc7e-992f0f89d265")
-		(property "Reference" "R216"
-			(at 108.966 102.87 0)
+		(uuid "b211b148-4217-44c2-91c1-66b9c7d8aac3")
+		(property "Reference" "R802"
+			(at 112.522 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1695,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 110.744 105.41 0)
+			(at 114.046 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1704,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 113.792 104.14 90)
+			(at 117.602 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 104.14 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1722,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 104.14 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,15 +1731,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0daade5d-3ddd-4a18-a470-848e76e2beee")
+			(uuid "1aa62760-d8ec-4e53-b412-49d9a4f523ed")
 		)
 		(pin "2"
-			(uuid "ac3f5f1b-582a-489e-b55e-ebd9f6806bbb")
+			(uuid "0a52441d-a501-4d03-9488-b6a43685086d")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "R216")
+					(reference "R802")
 					(unit 1)
 				)
 			)
@@ -1878,7 +1817,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 124.46 71.12 0)
+		(at 119.38 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1887,7 +1826,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfedd1ed-8ee4-4d59-965f-8951146005d8")
 		(property "Reference" "#PWR0801"
-			(at 124.46 74.93 0)
+			(at 119.38 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1835,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 124.46 66.04 0)
+			(at 119.38 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 71.12 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 71.12 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 124.46 71.12 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,33 +1882,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 110.49 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc7e44ac-52ce-4b6a-b5d4-8d9ae5e0cdd9")
+		(property "Reference" "R801"
+			(at 103.886 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 105.664 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 108.712 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7077e279-c817-48a4-8a49-e4aa3c2d4b41")
+		)
+		(pin "2"
+			(uuid "cbc62603-cf22-4287-bfc9-94f7f2a0a705")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
+					(reference "R801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS83P")
-		(at 130.81 85.09 270)
+		(at 125.73 80.01 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fb727b2a-3d11-457c-9f17-827772f08f9a")
-		(property "Reference" "Q3"
-			(at 130.81 76.2 90)
+		(uuid "e8e8b168-ce79-41ce-83fc-1099203ec1a6")
+		(property "Reference" "Q802"
+			(at 128.016 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BSS83P"
-			(at 130.81 78.74 90)
+		(property "Value" "DO2309A"
+			(at 130.302 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 128.905 80.01 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 123.825 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,8 +1987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/1835997.pdf"
-			(at 127 80.01 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_DOINGTER-DO2309A_C47018570.pdf"
+			(at 121.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,8 +1997,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23"
-			(at 130.81 85.09 0)
+		(property "Description" "-2A Id, -60V Vds, P-Channel MOSFET, SOT-23"
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C47018570"
+			(at 125.73 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,18 +2016,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac224235-f48e-4318-a640-d616f064d716")
+			(uuid "bbe2c44f-7a9a-48eb-9651-1a1aefe3f6b7")
 		)
 		(pin "3"
-			(uuid "0ba72f47-466e-4350-a94b-08c73c31e7e3")
+			(uuid "04838c59-8399-4bb9-a80a-8b04b10efbb8")
 		)
 		(pin "2"
-			(uuid "5d23b93f-fa52-46a4-970e-b91977e73361")
+			(uuid "001469b4-3e10-4d5b-a8cc-ee1243741a1c")
 		)
 		(instances
-			(project ""
+			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "Q3")
+					(reference "Q802")
 					(unit 1)
 				)
 			)

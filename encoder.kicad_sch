@@ -1489,13 +1489,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 99.06) (xy 205.74 99.06)
+			(xy 200.66 124.46) (xy 205.74 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16701f34-47d6-4508-a28a-6b0786b426f0")
+		(uuid "16113a22-68ac-4caa-b08b-7294f203e41c")
 	)
 	(wire
 		(pts
@@ -1559,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 115.57) (xy 134.62 115.57)
+			(xy 124.46 115.57) (xy 137.16 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1586,6 +1586,16 @@
 			(type default)
 		)
 		(uuid "2f78b171-a3ca-4129-af7b-4a7d454696de")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 134.62 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f6b3d6-d420-4e31-89b8-296a21311eba")
 	)
 	(bus
 		(pts
@@ -1616,6 +1626,16 @@
 			(type default)
 		)
 		(uuid "32cb26aa-6a5a-46bc-ac5f-0c7cefd97d0c")
+	)
+	(wire
+		(pts
+			(xy 200.66 99.06) (xy 205.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea0270c-b1f4-465a-9a39-60975b1918d0")
 	)
 	(wire
 		(pts
@@ -1669,16 +1689,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 124.46) (xy 205.74 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67fddfe7-c5fb-45ea-ad5b-4bfee2aa4265")
-	)
-	(wire
-		(pts
 			(xy 96.52 127) (xy 116.84 127)
 		)
 		(stroke
@@ -1716,6 +1726,16 @@
 			(type default)
 		)
 		(uuid "702b1363-2347-42ed-afab-85ae022fd224")
+	)
+	(wire
+		(pts
+			(xy 137.16 115.57) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d78cb8-dd2c-47b8-88a0-c98f4faaed83")
 	)
 	(wire
 		(pts
@@ -1867,16 +1887,6 @@
 		)
 		(uuid "c020108d-fc49-4908-a36a-b4ab67a4a465")
 	)
-	(wire
-		(pts
-			(xy 125.73 120.65) (xy 125.73 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ae55d8-f791-46f9-9dc9-535ac627c870")
-	)
 	(bus
 		(pts
 			(xy 214.63 67.31) (xy 224.79 67.31)
@@ -1919,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 127) (xy 116.84 127)
+			(xy 137.16 127) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -1946,16 +1956,6 @@
 			(type default)
 		)
 		(uuid "edf5ef9e-b750-4fe2-848e-bd29df0001db")
-	)
-	(wire
-		(pts
-			(xy 124.46 120.65) (xy 125.73 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef6ad252-5484-4038-9f61-36a854ae1791")
 	)
 	(wire
 		(pts
@@ -2008,14 +2008,14 @@
 		(uuid "32c98401-b459-43ff-8fb9-48070fa153d3")
 	)
 	(label "BTN_RAW"
-		(at 134.62 115.57 180)
+		(at 134.62 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3c72d8b6-c879-409a-9516-2e061eaacc02")
+		(uuid "69010b37-d293-4fb6-b283-0939f20e5999")
 	)
 	(label "B_RAW"
 		(at 153.67 124.46 0)
@@ -2079,148 +2079,6 @@
 		(uuid "8c0c8f96-ff16-42f7-b3cd-7c72580acc80")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "018c80d1-ae97-45b0-9f54-b21a7715385e")
-		(property "Reference" "R5"
-			(at 163.322 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 163.322 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 166.37 122.682 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5a23a76-d843-4e46-8dc4-ff4640802d90")
-		)
-		(pin "2"
-			(uuid "8c486d40-6b6b-4554-9965-1fc842fe8f1e")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d1fae41-9271-47da-adf6-fd2ddcbb3fa5")
-		(property "Reference" "R3"
-			(at 163.322 101.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 163.322 104.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 166.37 97.282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "217b2adf-b9d4-4943-8207-0b67ff7673f0")
-		)
-		(pin "2"
-			(uuid "98179e4b-c65a-4888-a559-301f12f7647c")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 116.84 128.27 0)
 		(unit 1)
@@ -2230,7 +2088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a8d290-ba82-4685-8d87-ab0e6252099d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0403"
 			(at 116.84 134.62 0)
 			(effects
 				(font
@@ -2280,11 +2138,84 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR013")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR02")
+					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "151785bc-73f7-43f8-a5d5-e8a0f44d3f42")
+		(property "Reference" "R402"
+			(at 161.544 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 163.068 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 159.512 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05375725-2f73-40b0-8f76-0118788c8d6b")
+		)
+		(pin "2"
+			(uuid "082d92f4-5471-4051-ba05-dc10edd3413f")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
+					(reference "R502")
+					(unit 1)
+				)
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -2300,7 +2231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a17631c-5427-4775-a3d3-ce40da359aac")
-		(property "Reference" "U1"
+		(property "Reference" "U401"
 			(at 186.69 87.63 0)
 			(effects
 				(font
@@ -2316,7 +2247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 186.69 99.06 0)
 			(effects
 				(font
@@ -2335,6 +2266,15 @@
 			)
 		)
 		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98856"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -2370,11 +2310,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "U2")
+					(reference "U501")
 					(unit 3)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "U1")
+					(reference "U401")
 					(unit 3)
 				)
 			)
@@ -2390,7 +2330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2921dcd7-2cb4-40bb-9086-8a1a8036f21c")
-		(property "Reference" "SW1"
+		(property "Reference" "SW401"
 			(at 116.84 107.95 0)
 			(effects
 				(font
@@ -2433,6 +2373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C470596"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S1"
 			(uuid "7f122353-3df2-49a0-a7fe-4a692131df92")
 		)
@@ -2454,11 +2403,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "SW2")
+					(reference "SW501")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "SW1")
+					(reference "SW401")
 					(unit 1)
 				)
 			)
@@ -2474,7 +2423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d47bcfe-ff28-47b1-a0aa-1fc147a92058")
-		(property "Reference" "U1"
+		(property "Reference" "U401"
 			(at 186.69 113.03 0)
 			(effects
 				(font
@@ -2490,7 +2439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 186.69 124.46 0)
 			(effects
 				(font
@@ -2509,6 +2458,15 @@
 			)
 		)
 		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98856"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -2544,11 +2502,84 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "U2")
+					(reference "U501")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "U1")
+					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 171.45 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a0c1197-3b0e-4336-af4a-ad6fbf39ac14")
+		(property "Reference" "C403"
+			(at 172.466 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 172.212 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 172.4152 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b748c5a-0cdc-41ee-aeaf-75413b1a557d")
+		)
+		(pin "2"
+			(uuid "b6421775-547e-4040-8098-bfbd1950017a")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
+					(reference "C503")
+					(unit 1)
+				)
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -2564,7 +2595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c5e77e4-bf1e-4084-8848-371b868a89ef")
-		(property "Reference" "TP8"
+		(property "Reference" "TP402"
 			(at 208.28 94.4879 0)
 			(effects
 				(font
@@ -2615,11 +2646,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "TP9")
+					(reference "TP502")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "TP8")
+					(reference "TP402")
 					(unit 1)
 				)
 			)
@@ -2635,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c9ce6d9-839c-4a0a-ba0c-de94216078ef")
-		(property "Reference" "U1"
+		(property "Reference" "U401"
 			(at 123.19 78.7399 0)
 			(effects
 				(font
@@ -2653,7 +2684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 115.57 80.01 0)
 			(effects
 				(font
@@ -2672,6 +2703,15 @@
 			)
 		)
 		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98856"
 			(at 116.84 80.01 0)
 			(effects
 				(font
@@ -2707,11 +2747,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "U2")
+					(reference "U501")
 					(unit 4)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "U1")
+					(reference "U401")
 					(unit 4)
 				)
 			)
@@ -2727,7 +2767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f9bcc20-6fcf-45cb-b6d4-e4a385847a8d")
-		(property "Reference" "TP10"
+		(property "Reference" "TP403"
 			(at 208.28 119.8879 0)
 			(effects
 				(font
@@ -2778,11 +2818,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "TP11")
+					(reference "TP503")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "TP10")
+					(reference "TP403")
 					(unit 1)
 				)
 			)
@@ -2790,108 +2830,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 119.38 0)
+		(at 161.29 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5040692d-58de-4115-a35f-71ea57df59b2")
-		(property "Reference" "R6"
-			(at 163.83 118.1099 0)
+		(uuid "5b082b6d-cafe-499f-8d1d-41bd416187c6")
+		(property "Reference" "R401"
+			(at 154.178 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 163.83 120.6499 0)
+			(at 155.448 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 159.512 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a025934-dd9e-4943-8d3e-3b5a8539f8ef")
-		)
-		(pin "2"
-			(uuid "50cc5393-0f5f-4bae-be6f-85d989600885")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 161.29 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7635dbc0-7b0e-4897-ae08-4dfe7145a963")
-		(property "Reference" "R1"
-			(at 163.83 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 163.83 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 159.512 68.58 90)
+			(at 163.068 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,19 +2883,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce864b5b-b9ae-4eba-aa20-1befb4855acd")
+			(uuid "3d2a8f2e-cca2-4d6d-ba33-33fc265229ca")
 		)
 		(pin "2"
-			(uuid "52b4ae66-f7b1-40d7-a1f7-fc3ad5979cc3")
+			(uuid "5a821385-b6c0-4e4e-83ff-f91f3f7855d5")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "R10")
+					(reference "R501")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "R1")
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7268c493-8d5f-4108-b6f9-039496a714af")
+		(property "Reference" "R405"
+			(at 166.116 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.116 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 166.37 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "102691f6-bc1f-4d52-8123-a3b73b0b4a07")
+		)
+		(pin "2"
+			(uuid "243ca79d-d123-45f7-a96c-900abf8416df")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
+					(reference "R505")
+					(unit 1)
+				)
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -2946,7 +2982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7beb5020-b4cd-40fb-bbd8-ac49870a3eae")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0401"
 			(at 116.84 71.12 0)
 			(effects
 				(font
@@ -2996,155 +3032,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR011")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 171.45 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7da9a5f0-1189-4b8b-a9fa-fe50cc99b53d")
-		(property "Reference" "C2"
-			(at 165.608 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 165.608 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 172.4152 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94f49dfd-0000-4b7d-80a7-03dab6cba85c")
-		)
-		(pin "1"
-			(uuid "2507c7cc-771c-4f42-a23f-15c2f846e61a")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "C5")
-					(unit 1)
-				)
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8515ceaa-4c3f-465a-bdd1-af0bff7d96b8")
-		(property "Reference" "R2"
-			(at 162.306 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 162.306 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 166.37 71.882 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90dce4c5-323a-4b7d-992f-d6bcca4debb5")
-		)
-		(pin "2"
-			(uuid "52adf758-34d9-486f-98df-887ebebb30db")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "R2")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -3160,7 +3052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9104b6-2f5d-4715-97c9-4fde9d46d541")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0406"
 			(at 161.29 118.11 0)
 			(effects
 				(font
@@ -3210,11 +3102,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR019")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR010")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -3230,7 +3122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93e35917-26c2-4f10-bcc4-08f6e1944ec7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0405"
 			(at 161.29 92.71 0)
 			(effects
 				(font
@@ -3280,11 +3172,82 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR018")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR08")
+					(reference "#PWR0405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0f44d6e-9e17-4736-a932-f2bf114fff9b")
+		(property "Reference" "R404"
+			(at 164.592 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.354 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 166.37 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfea9aa5-91da-4bbd-81f4-282faf97af00")
+		)
+		(pin "2"
+			(uuid "1a6b6a87-1ac1-4505-a6b7-48cc8c8691db")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
+					(reference "R504")
+					(unit 1)
+				)
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -3300,7 +3263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9b8376d-a12b-4100-b62f-933bce3f1b9e")
-		(property "Reference" "U1"
+		(property "Reference" "U401"
 			(at 186.69 62.23 0)
 			(effects
 				(font
@@ -3316,7 +3279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -3335,6 +3298,15 @@
 			)
 		)
 		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98856"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -3370,11 +3342,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "U2")
+					(reference "U501")
 					(unit 2)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "U1")
+					(reference "U401")
 					(unit 2)
 				)
 			)
@@ -3390,7 +3362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b46b5e4c-81a8-441e-9c31-33c2ceaf65e0")
-		(property "Reference" "C7"
+		(property "Reference" "C401"
 			(at 105.41 78.7399 0)
 			(effects
 				(font
@@ -3444,11 +3416,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "C8")
+					(reference "C501")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "C7")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -3464,7 +3436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b786dba6-fa83-4d5a-a339-b47dc8534eed")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0408"
 			(at 171.45 115.57 0)
 			(effects
 				(font
@@ -3514,11 +3486,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR015")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR07")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -3534,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8de52a2-c64f-4ef2-94c6-767cb4e56aae")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0402"
 			(at 116.84 99.06 0)
 			(effects
 				(font
@@ -3584,11 +3556,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR012")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR04")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -3596,15 +3568,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 129.54 0)
+		(at 171.45 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "c840e386-4f48-4643-9a01-52a94394db2c")
-		(property "Reference" "C3"
-			(at 165.862 132.334 0)
+		(uuid "c118538c-8b44-425b-b8c2-ce7aef35d74c")
+		(property "Reference" "C402"
+			(at 172.212 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3585,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 165.862 134.874 0)
+			(at 171.958 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3594,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 172.4152 133.35 0)
+			(at 172.4152 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 129.54 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3612,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 129.54 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,20 +3620,20 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "6040f96c-aa9f-45e0-8814-99708f57bf50")
-		)
 		(pin "1"
-			(uuid "c0ef9363-f041-4569-963d-8af6705e12a2")
+			(uuid "1b864e49-a93b-45bc-8e2a-89a61d9d4133")
+		)
+		(pin "2"
+			(uuid "4b0fdfa5-d4e3-4469-bd4a-2c5490789352")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "C6")
+					(reference "C502")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "C3")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -3677,7 +3649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cab7515f-00bb-483a-9445-600c4bfca66e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0407"
 			(at 171.45 90.17 0)
 			(effects
 				(font
@@ -3727,11 +3699,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR014")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR05")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a76a1a-72d8-48ed-809f-89389544719a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0409"
 			(at 171.45 140.97 0)
 			(effects
 				(font
@@ -3797,11 +3769,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR016")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR09")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -3809,15 +3781,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 78.74 0)
+		(at 171.45 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "ee06cbcd-bba7-4f85-b573-c4758bf40b28")
-		(property "Reference" "C1"
-			(at 166.116 81.026 0)
+		(uuid "d1acf239-74d2-4e15-b71b-9f2c0b4223f0")
+		(property "Reference" "C404"
+			(at 172.212 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3798,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 166.116 83.566 0)
+			(at 171.958 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3807,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 172.4152 82.55 0)
+			(at 172.4152 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +3816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 78.74 0)
+			(at 171.45 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3825,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 78.74 0)
+			(at 171.45 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,20 +3833,20 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a29f2f0d-0996-4dfd-a3c9-50c612e1d3de")
-		)
 		(pin "1"
-			(uuid "002c165d-c9d3-47d7-a0b2-1f23cbfd960b")
+			(uuid "80479634-7789-4e7a-bf00-9ae6c9c6ef8a")
+		)
+		(pin "2"
+			(uuid "06f1d996-cc84-4256-889e-23b3ed27b192")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "C4")
+					(reference "C504")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "C1")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -3882,34 +3854,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 93.98 0)
+		(at 166.37 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eebd0fe1-0ca0-47a0-a4a9-66ed6190db0a")
-		(property "Reference" "R4"
-			(at 163.83 92.7099 0)
+		(uuid "d4c90150-05e0-4377-a380-d77743fdf8da")
+		(property "Reference" "R406"
+			(at 162.56 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 163.83 95.2499 0)
+			(at 161.798 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 159.512 93.98 90)
+			(at 166.37 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 93.98 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3896,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 93.98 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,19 +3905,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c83b8a6-752f-4fb4-bd6f-6c6fec7431bf")
+			(uuid "45dc7df8-a7b9-479a-a13a-3a7f51353784")
 		)
 		(pin "2"
-			(uuid "f9328558-e2d5-4142-ba9e-885014b96edf")
+			(uuid "97a3ee5b-abf0-45b9-b053-8dcf26e34517")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "R11")
+					(reference "R506")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "R4")
+					(reference "R406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e318c0d7-dfb3-497f-9282-3cf0d4c17da5")
+		(property "Reference" "R403"
+			(at 154.178 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 155.448 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 159.512 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dc896dc-acc1-4b56-bc70-aa4837e2ada0")
+		)
+		(pin "2"
+			(uuid "0de3846a-2af0-4cba-95a7-fa0d37a36fde")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
+					(reference "R503")
+					(unit 1)
+				)
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -3964,7 +4006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f94a6ac8-5ad4-4dbb-a70e-a03628adf524")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0404"
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -4014,11 +4056,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "#PWR017")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "#PWR06")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -4034,7 +4076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd66d6fc-489c-4ca3-b44b-0c62655c704c")
-		(property "Reference" "TP6"
+		(property "Reference" "TP401"
 			(at 208.28 69.0879 0)
 			(effects
 				(font
@@ -4085,11 +4127,11 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/8ab23184-7a75-4d74-a7c3-8fc56a0d6372"
-					(reference "TP7")
+					(reference "TP501")
 					(unit 1)
 				)
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/e24d82de-f0b3-40eb-9854-28ed19ab91cc"
-					(reference "TP6")
+					(reference "TP401")
 					(unit 1)
 				)
 			)
