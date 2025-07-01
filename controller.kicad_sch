@@ -3712,7 +3712,7 @@
 		)
 		(uuid "11e2cf64-a53a-4966-9711-438b1438ec68")
 	)
-	(label "Display2.~{CLR}"
+	(label "Display1.~{CLR}"
 		(at 138.43 104.14 180)
 		(effects
 			(font
@@ -3762,7 +3762,7 @@
 		)
 		(uuid "1d97d5d1-350a-45ee-ae7a-1c0d6fc6a081")
 	)
-	(label "Display2.LAT"
+	(label "Display1.LAT"
 		(at 138.43 101.6 180)
 		(effects
 			(font
@@ -3812,7 +3812,7 @@
 		)
 		(uuid "57521522-4548-44c5-8d6d-0d60706f58c0")
 	)
-	(label "Encoder1.DAT"
+	(label "Encoder2.DAT"
 		(at 161.29 81.28 0)
 		(effects
 			(font
@@ -3822,7 +3822,7 @@
 		)
 		(uuid "57b8cfb8-c95b-40d4-a0be-c8265e70a481")
 	)
-	(label "Encoder2.CLK"
+	(label "Encoder1.CLK"
 		(at 138.43 93.98 180)
 		(effects
 			(font
@@ -3832,7 +3832,7 @@
 		)
 		(uuid "6504ea1d-78f2-491f-a89a-95368ebc849c")
 	)
-	(label "Encoder2.BTN"
+	(label "Encoder1.BTN"
 		(at 138.43 99.06 180)
 		(effects
 			(font
@@ -3862,7 +3862,7 @@
 		)
 		(uuid "7902cbf9-5adc-4445-b899-0f27e0e42bfc")
 	)
-	(label "Encoder2.DAT"
+	(label "Encoder1.DAT"
 		(at 138.43 96.52 180)
 		(effects
 			(font
@@ -3922,7 +3922,7 @@
 		)
 		(uuid "a4f17f47-015d-4780-8218-da1919904662")
 	)
-	(label "Display2.~{OE}"
+	(label "Display1.~{OE}"
 		(at 190.5 93.98 0)
 		(effects
 			(font
@@ -3932,7 +3932,7 @@
 		)
 		(uuid "a7ef56af-70a2-42e7-93e7-bae90d448d26")
 	)
-	(label "Encoder1.BTN"
+	(label "Encoder2.BTN"
 		(at 161.29 83.82 0)
 		(effects
 			(font
@@ -3962,7 +3962,7 @@
 		)
 		(uuid "bc53d8fb-c477-4c57-9f91-f1c8b6c99530")
 	)
-	(label "Display1.~{OE}"
+	(label "Display2.~{OE}"
 		(at 161.29 93.98 0)
 		(effects
 			(font
@@ -3972,7 +3972,7 @@
 		)
 		(uuid "c287ed0b-fbbb-41ce-b78f-c131d1d89433")
 	)
-	(label "Display1.LAT"
+	(label "Display2.LAT"
 		(at 161.29 86.36 0)
 		(effects
 			(font
@@ -4022,7 +4022,7 @@
 		)
 		(uuid "e566cce2-8211-41b5-9a45-a3b11bdd5e8f")
 	)
-	(label "Display1.~{CLR}"
+	(label "Display2.~{CLR}"
 		(at 161.29 88.9 0)
 		(effects
 			(font
@@ -4032,7 +4032,7 @@
 		)
 		(uuid "ec0e9441-6836-4545-8d49-6bf474dae411")
 	)
-	(label "Encoder1.CLK"
+	(label "Encoder2.CLK"
 		(at 161.29 78.74 0)
 		(effects
 			(font
@@ -4062,7 +4062,7 @@
 		)
 		(uuid "f3c6b47b-41eb-45e5-a007-905166843538")
 	)
-	(hierarchical_label "Display2{Display}"
+	(hierarchical_label "Display1{Display}"
 		(shape output)
 		(at 120.65 99.06 180)
 		(effects
@@ -4073,7 +4073,7 @@
 		)
 		(uuid "4f702aca-1a8c-470e-8177-75a6c3ecc69f")
 	)
-	(hierarchical_label "Display1{Display}"
+	(hierarchical_label "Display2{Display}"
 		(shape output)
 		(at 186.69 81.28 0)
 		(effects
@@ -4106,7 +4106,7 @@
 		)
 		(uuid "73aa6806-d9f7-4437-9cf1-b75e43406872")
 	)
-	(hierarchical_label "Encoder1{Encoder}"
+	(hierarchical_label "Encoder2{Encoder}"
 		(shape input)
 		(at 179.07 73.66 0)
 		(effects
@@ -4117,7 +4117,7 @@
 		)
 		(uuid "9b8668a2-1a64-4862-8cd0-1c87a0b52c42")
 	)
-	(hierarchical_label "Encoder2{Encoder}"
+	(hierarchical_label "Encoder1{Encoder}"
 		(shape input)
 		(at 121.92 91.44 180)
 		(effects
@@ -4139,7 +4139,7 @@
 		)
 		(uuid "be41730b-19e0-4937-a028-28468bc768c2")
 	)
-	(hierarchical_label "Display2{Display}"
+	(hierarchical_label "Display1{Display}"
 		(shape output)
 		(at 191.77 86.36 0)
 		(effects
