@@ -511,7 +511,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./Output",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -608,7 +608,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
