@@ -77,6 +77,7 @@
 			(outputdirectory "")
 		)
 	)
+	(property "VERSION" "01.00")
 	(net 0 "")
 	(net 1 "Net-(BT201-+)")
 	(net 2 "GND")
@@ -47944,6 +47945,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fac737ad-350f-4fcc-88aa-6729edc83424")
+	)
+	(gr_text "Life Counter\nV${VERSION}"
+		(at 197.612 89.027 90)
+		(layer "F.SilkS")
+		(uuid "3f71bfc9-e451-4457-ab90-847aa4cff542")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
 	)
 	(segment
 		(start 117.368929 85.977514)
