@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9354b01f-a889-4746-b01a-16da9a5078ec")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:Buzzer"
 			(pin_names
-				(offset 0.0254) hide)
+				(offset 0.0254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -75,18 +77,6 @@
 				)
 			)
 			(symbol "Buzzer_0_1"
-				(arc
-					(start 0 -3.175)
-					(mid 3.1612 0)
-					(end 0 3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.651 1.905) (xy -1.143 1.905)
@@ -103,6 +93,18 @@
 					(pts
 						(xy -1.397 2.159) (xy -1.397 1.651)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
 					(stroke
 						(width 0)
 						(type default)
@@ -162,9 +164,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -283,10 +288,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC817"
+		(symbol "Transistor_FET:2N7002K"
 			(pin_names
-				(offset 0) hide)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -299,7 +306,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC817"
+			(property "Value" "2N7002K"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -319,8 +326,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -329,7 +336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -338,7 +345,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -356,10 +363,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC817_0_1"
+			(symbol "2N7002K_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -371,7 +390,43 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -383,19 +438,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -406,8 +449,8 @@
 					)
 				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -416,12 +459,82 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "BC817_1_1"
+			(symbol "2N7002K_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+					(length 2.54)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -437,27 +550,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "C"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -472,13 +567,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -569,12 +687,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -646,7 +769,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -658,7 +781,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -689,7 +812,20 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 135.89 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b010972-8514-4d27-bb39-248a3ed05c8a")
+	)
+	(junction
+		(at 144.78 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae900e56-4092-4094-8fb5-1a176e2e709b")
 	)
 	(junction
 		(at 144.78 95.25)
@@ -715,13 +851,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 137.16 101.6)
+			(xy 135.89 102.87) (xy 135.89 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "351e51b0-607f-4e25-b0ff-ce1460adf8aa")
+		(uuid "3d8269f0-5b5b-411f-af40-cf8fa381f13f")
 	)
 	(wire
 		(pts
@@ -735,6 +871,36 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 111.76) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2c7df2-c2ef-4755-a265-a3a130be1f8f")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af89098-a958-4dda-b4d0-a389015e6c7b")
+	)
+	(wire
+		(pts
+			(xy 135.89 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe6a47a-0205-4a64-a504-3f6a937c031e")
+	)
+	(wire
+		(pts
 			(xy 142.24 87.63) (xy 144.78 87.63)
 		)
 		(stroke
@@ -745,23 +911,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 144.78 107.95)
+			(xy 128.27 101.6) (xy 135.89 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8307ebbe-0d61-4450-bad6-caa3ecf75f29")
+		(uuid "702a2263-e80d-4b2f-be83-2e205fc32c6b")
 	)
 	(wire
 		(pts
-			(xy 144.78 87.63) (xy 144.78 82.55)
+			(xy 144.78 111.76) (xy 144.78 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a766717-c83a-4880-93df-909993747dab")
+		(uuid "73c4cdcb-88d1-44c3-b3cf-2b0984f56464")
+	)
+	(wire
+		(pts
+			(xy 135.89 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74416220-d3c9-42a3-9189-2abb297c5483")
 	)
 	(wire
 		(pts
@@ -772,6 +948,16 @@
 			(type default)
 		)
 		(uuid "ab921d7a-dd69-43f9-8647-f9dc37a18f6a")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb32180c-f5a8-4989-b949-0446cc9eccaf")
 	)
 	(wire
 		(pts
@@ -795,16 +981,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ce16a2-9c29-4708-bfa0-b6ba2897350c")
-	)
-	(wire
-		(pts
 			(xy 144.78 88.9) (xy 148.59 88.9)
 		)
 		(stroke
@@ -815,27 +991,96 @@
 	)
 	(hierarchical_label "Buzz"
 		(shape input)
-		(at 127 101.6 180)
-		(fields_autoplaced yes)
+		(at 128.27 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "32bbd6c9-e073-414a-a310-4d1bb76e8893")
+		(uuid "162c3209-d3dc-4f75-9a47-707484f5b0d7")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4013698c-c11e-4815-9593-edc11c8eba69")
+		(property "Reference" "R803"
+			(at 135.382 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 136.906 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 140.462 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d17d4053-294b-418a-a9ac-bcf01d0ce19a")
+		)
+		(pin "2"
+			(uuid "41588f19-c54e-474f-a7b8-9f40becac24f")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
+					(reference "R803")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 107.95 0)
+		(at 144.78 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3f6c44b6-35c8-4d8b-8b58-0fee1dc56321")
-		(property "Reference" "#PWR06"
-			(at 144.78 114.3 0)
+		(fields_autoplaced yes)
+		(uuid "985060cc-260a-4519-b5bb-14866fc9d4a0")
+		(property "Reference" "#PWR0802"
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +1089,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.082 109.474 0)
+			(at 144.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +1097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 107.95 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +1106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 107.95 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +1115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 107.95 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,157 +1124,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "d35ad069-8493-443f-b29e-b9b8f532a218")
+			(uuid "0704fd39-4ea7-4bc9-95a9-328519d1fc41")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "#PWR06")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 142.24 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4386f079-1557-4391-9242-6a85822d1678")
-		(property "Reference" "R33"
-			(at 144.78 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 144.78 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 144.018 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61d001c3-95c9-4239-aef6-7ab3e6e8df34")
-		)
-		(pin "1"
-			(uuid "8d5b75dc-bdc0-4a29-9b6e-a668ec9e6a53")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77d69567-d016-4359-a324-f79cc55dfbdf")
-		(property "Reference" "R11"
-			(at 132.08 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.08 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a78bc19f-7d69-4f73-861d-be93131b72ff")
-		)
-		(pin "1"
-			(uuid "339abde9-aa95-487d-aa55-6066a4d6b690")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC817")
+		(lib_id "Transistor_FET:2N7002K")
 		(at 142.24 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1037,9 +1144,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b633b6b6-9825-4bb1-8600-8f039c23d077")
-		(property "Reference" "Q1"
-			(at 147.32 100.3299 0)
+		(uuid "a72efb36-589c-476b-bbd2-637cb5c219f0")
+		(property "Reference" "Q801"
+			(at 148.59 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,8 +1154,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
-			(at 147.32 102.8699 0)
+		(property "Value" "DO2308S"
+			(at 148.59 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 147.32 103.505 0)
 			(effects
 				(font
@@ -1067,8 +1174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 142.24 101.6 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_DOINGTER-DO2308S_C47018572.pdf"
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" "2.2A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 142.24 101.6 0)
 			(effects
 				(font
@@ -1086,19 +1193,28 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "2ed76530-015c-4146-b0ec-450192adb7c7")
+		(property "LCSC" "C47018572"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "f83aa717-784c-4124-8672-a8b9197897bf")
+			(uuid "e82f2158-5629-4bf8-9162-ee92d709f204")
+		)
+		(pin "3"
+			(uuid "23888e0b-e34b-4f05-9a71-f65ee6e12281")
 		)
 		(pin "1"
-			(uuid "08b96801-726f-4abe-b6b1-221b4173920a")
+			(uuid "3f343c18-78c7-4b99-8735-95b7db1578ba")
 		)
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "Q1")
+					(reference "Q801")
 					(unit 1)
 				)
 			)
@@ -1109,12 +1225,12 @@
 		(at 151.13 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9042a77-53ba-4775-9652-4b6349e5a341")
-		(property "Reference" "BZ1"
+		(property "Reference" "BZ801"
 			(at 154.94 90.1699 0)
 			(effects
 				(font
@@ -1132,7 +1248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKLCS1212E"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 150.495 88.9 90)
 			(effects
 				(font
@@ -1168,7 +1284,7 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "BZ1")
+					(reference "BZ801")
 					(unit 1)
 				)
 			)
@@ -1176,7 +1292,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 144.78 82.55 0)
+		(at 144.78 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1184,8 +1300,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfedd1ed-8ee4-4d59-965f-8951146005d8")
-		(property "Reference" "#PWR03"
-			(at 144.78 86.36 0)
+		(property "Reference" "#PWR0801"
+			(at 144.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1310,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 144.78 77.47 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 82.55 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 82.55 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 144.78 82.55 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1350,76 @@
 		(instances
 			(project "LifeCounter"
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
-					(reference "#PWR03")
+					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc7e44ac-52ce-4b6a-b5d4-8d9ae5e0cdd9")
+		(property "Reference" "R801"
+			(at 129.286 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 131.064 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 134.112 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7077e279-c817-48a4-8a49-e4aa3c2d4b41")
+		)
+		(pin "2"
+			(uuid "cbc62603-cf22-4287-bfc9-94f7f2a0a705")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/ea853267-6be5-4470-9fb8-da1c0cfa6c51"
+					(reference "R801")
 					(unit 1)
 				)
 			)

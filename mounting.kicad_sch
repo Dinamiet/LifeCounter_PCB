@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d041800d-8982-4c4c-a1c9-75c6e7fef34f")
 	(paper "A4")
 	(lib_symbols
@@ -86,6 +86,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(symbol
@@ -98,7 +99,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0df8f6e2-3081-4aba-9323-c17c0cf7fc30")
-		(property "Reference" "H3"
+		(property "Reference" "H904"
 			(at 130.81 87.6299 0)
 			(effects
 				(font
@@ -116,7 +117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_2mm"
 			(at 128.27 88.9 0)
 			(effects
 				(font
@@ -146,7 +147,7 @@
 		(instances
 			(project ""
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/a359fce7-335c-4dc7-9a29-9985e30edce2"
-					(reference "H3")
+					(reference "H904")
 					(unit 1)
 				)
 			)
@@ -162,7 +163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49e3b5f3-3c88-4e04-97a3-0783202e3a24")
-		(property "Reference" "H1"
+		(property "Reference" "H901"
 			(at 96.52 77.4699 0)
 			(effects
 				(font
@@ -180,7 +181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_2mm"
 			(at 93.98 78.74 0)
 			(effects
 				(font
@@ -210,7 +211,7 @@
 		(instances
 			(project ""
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/a359fce7-335c-4dc7-9a29-9985e30edce2"
-					(reference "H1")
+					(reference "H901")
 					(unit 1)
 				)
 			)
@@ -226,7 +227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cbb3b34-8e29-45ad-8f89-bed15243d3c7")
-		(property "Reference" "H2"
+		(property "Reference" "H903"
 			(at 130.81 77.4699 0)
 			(effects
 				(font
@@ -244,7 +245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_2mm"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -274,7 +275,7 @@
 		(instances
 			(project ""
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/a359fce7-335c-4dc7-9a29-9985e30edce2"
-					(reference "H2")
+					(reference "H903")
 					(unit 1)
 				)
 			)
@@ -290,7 +291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783be192-3a91-474c-81ee-39c815409c0b")
-		(property "Reference" "H4"
+		(property "Reference" "H902"
 			(at 96.52 87.6299 0)
 			(effects
 				(font
@@ -308,7 +309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_2mm"
 			(at 93.98 88.9 0)
 			(effects
 				(font
@@ -338,7 +339,7 @@
 		(instances
 			(project ""
 				(path "/16b3e55a-9d75-49bf-a6fe-25414eb3d7da/a359fce7-335c-4dc7-9a29-9985e30edce2"
-					(reference "H4")
+					(reference "H902")
 					(unit 1)
 				)
 			)
